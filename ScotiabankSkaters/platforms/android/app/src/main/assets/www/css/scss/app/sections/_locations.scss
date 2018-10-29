@@ -1,0 +1,277 @@
+// ==============================================
+// LOCATIONS
+// ==============================================
+
+.locations {
+	
+	display: none;
+
+	.wrapper-locations {
+		padding: 4% 0 0;
+		border-bottom: 1px solid $gray3;
+	}
+
+	.top {
+		border-bottom: 1px solid $gray3;
+
+		p {
+			&.small {
+				margin-bottom: 4%;
+			}
+		}
+	}
+
+	.bottom {
+
+		.location {
+			padding: 4% 0;
+
+			.city {
+				@include flex-container;
+
+				> div {
+
+					&:first-child {
+
+						@include flex-container(flex-start, flex-start, flex-start, wrap);
+						width: 60%;
+
+						> div {
+
+							&:nth-child(1) {
+								width: 20%;
+								text-align: center;
+								padding: 0 2%;
+							}
+
+							&:nth-child(2) {
+								width: 80%;
+								p {
+									margin: 0 0 2%;
+									&:last-child {
+										margin: 0;
+									}
+								}
+							}
+
+							&:nth-child(3) {
+								width: 100%;
+							}
+						}
+					}
+
+					&:last-child {
+						width: 40%;
+						padding: 0 0 0 2%;
+					}
+				}
+			}
+
+			.schedule {
+				padding: 4% 0 0;
+
+				img {
+					width: 100%;
+				}
+
+				h3 {
+					text-align: center;
+					margin: 0 0 3%;
+				}
+			}
+		}
+
+		h3 {
+			margin: 0 0 3%;
+		}
+
+		.ws {
+			@include border-radius(5px);
+			border: 1px solid $gray6;
+			padding: 0 5%;
+
+			p {
+				margin: 5% 0;
+			}
+		}
+
+		.buttons {
+			@include flex-container;
+			padding: 4% 0 0 12.5%;
+
+			> div {
+				position: relative;
+
+				&:last-child {
+					width: calc(30% + 5px);
+					z-index: 1;
+					margin: 0 0 0 -5px;
+				}
+
+				&:first-child {
+					width: 25%;
+					z-index: 0;
+				}
+			}
+
+			&.just-one {
+				> div {
+					position: relative;
+
+					&:last-child {
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.owl-carousel {
+
+		padding: 0 40px;
+
+		.owl-stage-outer {
+			overflow: hidden;
+		}
+
+		.owl-dots {
+			display: none;
+		}
+
+		.owl-nav {
+
+			.owl-prev, .owl-next {
+				@include translateY(0);
+				top: 94px;
+			}
+
+			.owl-prev {
+				left: 0;
+			}
+
+			.owl-next {
+				right: 0;
+			}
+		}
+	}
+}
+
+/*@include maxDesktop {
+		
+	.locations {	
+
+		.owl-carousel {
+
+			.owl-nav {
+
+				.owl-prev {
+					top: 150px;
+				}
+
+				.owl-next {
+					top: 150px;
+				}
+			}
+		}
+	}
+}*/
+
+@include mobile {
+	.locations {
+
+		.wrapper-locations {
+			padding: 8% 0 0;
+		}
+
+		/*.top {
+			border: 0;
+		}*/
+
+		.bottom {
+
+			.location {
+				padding: 8% 0;
+
+				.city {
+					@include flex-container(flex-start, flex-start, flex-start, nowrap, column);
+
+					> div {
+
+						&:first-child {
+							width: 100%;
+
+						}
+
+						&:last-child {
+							width: 100%;
+							padding: 4% 0 0;
+						}
+					}
+				}
+
+				.schedule {
+					padding-bottom: 8% 0 0;
+					border-top: 0;
+
+					.parent-button {
+						text-align: center;
+
+						.no-button {
+							display: inline-block;
+							vertical-align: top;
+							margin: 0;
+						}
+					}
+				}
+			}
+
+			.buttons {
+				padding: 8% 0 0;
+
+				> div {
+
+					&:last-child {
+						width: calc(60% + 5px);
+					}
+
+					&:first-child {
+						width: 40%;
+					}
+				}
+
+				&.just-one {
+
+					> div {
+
+						&:last-child {
+							margin: 0 auto;
+						}
+					}
+				}
+			}
+		}
+
+		.owl-carousel {
+
+			.owl-nav {
+				display: block;
+
+				.owl-prev, .owl-next {
+					@include translateY(0);
+					background: url('../img/arrows.png?2') no-repeat;
+					top: 100px;
+				}
+
+				.owl-prev {
+					background-position: 0 0;
+					left: 0;
+				}
+
+				.owl-next {
+					background-position: -30px 0;
+					right: 0;
+				}
+			}
+		}
+	}
+}

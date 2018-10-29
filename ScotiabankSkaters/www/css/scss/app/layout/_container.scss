@@ -1,0 +1,68 @@
+// ==============================================
+// CONTAINER
+// ==============================================
+// Default Grid Container related styles
+
+// Vars
+$containerWidth: 950;
+$containerPadding: 10;
+
+%container {
+	@include box-sizing(border-box);
+	position: relative;
+	max-width: #{$containerWidth}px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: #{$containerPadding}px;
+	padding-right: #{$containerPadding}px;
+}
+
+.container {
+	@extend %container;
+}
+
+/*@include maxDesktop {
+
+	.container {
+		max-width: 1400px;
+	}
+}*/
+
+%flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#main-container {
+	display: block;
+}
+
+.overflow-wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+
+// ==============================================
+// MOBILE
+// ==============================================
+
+@include mobile {
+
+	.nomobile {
+		display: none !important;
+	}
+
+}
+
+
+// ==============================================
+// NO MOBILE
+// ==============================================
+
+@include nomobile {
+
+	.mobile {
+		display: none !important;
+	}
+}

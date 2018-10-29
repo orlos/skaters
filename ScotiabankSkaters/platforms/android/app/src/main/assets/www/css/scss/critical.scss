@@ -1,0 +1,37 @@
+/** ABSTRACTS **/
+@import "app/abstracts/mixins";
+@import "app/abstracts/colors";
+@import "app/abstracts/fonts";
+@import "app/abstracts/media-declarations";
+@import "app/abstracts/animations";
+
+/** BASE **/
+@import "app/base/reset";
+@import "app/base/base";
+
+/** HELPERS **/
+@import "app/helpers/media-auxiliars";
+@import "app/helpers/accessibility";
+
+/** VENDOR **/
+@import "app/vendor/owl.carousel";
+
+/** LAYOUT **/
+@import "app/layout/container";
+@import "app/layout/general";
+@import "app/layout/header";
+@import "app/layout/nav";
+@import "app/layout/footer";
+
+/** SECTIONS **/
+@import "app/sections/welcome";
+@import "app/sections/banner";
+@import "app/sections/join";
+@import "app/sections/links";
+@import "app/sections/programs";
+@import "app/sections/teammates";
+@import "app/sections/videos";
+@import "app/sections/flipgive";
+@import "app/sections/calculate";
+@import "app/sections/infografics";
+@import "app/sections/legals";

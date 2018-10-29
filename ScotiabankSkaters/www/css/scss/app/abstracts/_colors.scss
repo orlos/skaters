@@ -1,0 +1,64 @@
+// ==============================================
+// COLORS
+// ==============================================
+
+// FIRST WE DEFINE DESCRIPTIVE COLORS
+// Color names provided by http://chir.ag/projects/name-that-color/
+// The method to create the name is: "Closest standard color" name + "Name that color" name (brown + dark ebony)
+$white: #fff;
+$whitedot01: rgba(255, 255, 255, .01);
+$whitedot1: rgba(255, 255, 255, .1);
+$whitedot2: rgba(255, 255, 255, .2);
+$whitedot3: rgba(255, 255, 255, .3);
+$whitedot4: rgba(255, 255, 255, .4);
+
+$black: #000;
+$blackdot1: rgba(0, 0, 0, .1);
+$blackdot2: rgba(0, 0, 0, .2);
+$blackdot3: rgba(0, 0, 0, .3);
+$blackdot4: rgba(0, 0, 0, .4);
+$blackdot5: rgba(0, 0, 0, .5);
+$blackdot75: rgba(0, 0, 0, .75);
+
+$gray: #666;
+$gray2: #ededed;
+$gray3: #bebebe;
+$gray4: #e5e5e5;
+$gray5: #ccc;
+$gray6: #9d9d9d;
+$gray7: #474747;
+$gray8: #666;
+$gray9: #c9c9c9;
+$gray10: #dedede;
+$gray11: #f0f0f0;
+
+$dark: #11101e;
+$red: #e1201e;
+$green: #0999a2;
+$green2: #2a9d4b;
+$blue: #0d53b2;
+$blueDark: #0e162e;
+$blueLight: #3dbeff;
+
+$facebook: #23599b;
+$twitter: #00a1f4;
+$instagram: #f89c2f;
+
+$redDark: #ca1d1b;
+
+$facebookDark: #1f508b;
+$twitterDark: #0091db;
+$instagramDark: #df8c2a;
+
+
+$titleColor: $red;
+$titleColor2: $gray;
+$titleColor3: $white;
+$paragColor: $gray;
+$paragColor2: $white;
+$paragColor3: $black;
+$linkColor: $red;
+$linkColor2: $black;
+$buttonColor: $white;
+$buttonColor2: $gray;
+

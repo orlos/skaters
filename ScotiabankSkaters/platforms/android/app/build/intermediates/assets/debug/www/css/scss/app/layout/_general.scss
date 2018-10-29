@@ -1,0 +1,607 @@
+// ==============================================
+// GENERAL
+// ==============================================
+// General styles for p's and h's
+
+main {
+
+	p {
+		@extend %arial-regular;
+		color: $paragColor;
+		font-size: 15px;
+		line-height: 22px;
+
+
+		&.main {
+			max-width: 815px;
+			margin: 0 auto 2%;
+			text-align: center;
+		}
+
+		&.alt {
+			color: $paragColor2;
+			font-size: 16px;
+			line-height: 22px;
+		}
+
+		&.alt2 {
+			@extend %montserrat-medium;
+			color: $white;
+			font-size: 22px;
+			line-height: 25px;
+		}
+
+		&.big {
+			@extend %arial-bold;
+			color: $paragColor2;
+			font-size: 34px;
+			line-height: 34px;
+		}
+
+		&.bigger, .bigger {
+			@extend %gobold-bold;
+			color: $white;
+			font-size: 30px;
+			line-height: 45px;
+		}
+
+		&.biggest, .biggest {
+			@extend %gobold-bold;
+			color: $white;
+			font-size: 42px;
+			line-height: 42px;
+		}
+
+		&.small {
+			font-size: 11px;
+			line-height: 16px;
+
+			a {
+				@extend %arial-regular;
+				font-size: inherit;
+				line-height: inherit;
+			}
+		}
+
+		&.small2 {
+			font-size: 13px;
+			line-height: 18px;
+		}
+
+		&.small3 {
+			font-size: 12px;
+			line-height: 16px;
+		}
+
+		&.white, .white {
+			color: $white;
+		}
+
+		&.strong {
+			@extend %arial-bold;
+			font-size: 18px;
+		}
+
+		&.red, .red {
+			color: $red;
+		}
+	}
+
+	label {
+		@extend %arial-regular;
+		color: $paragColor;
+		font-size: 15px;
+		line-height: 22px;
+
+		&.big {
+			@extend %arial-bold;
+			text-transform: uppercase;
+		}
+
+		&.alt {
+			@extend %montserrat-medium;
+			color: $gray8;
+			font-size: 16px;
+			line-height: 25px;
+		}
+
+		&.alt2 {
+			@extend %montserrat-medium;
+			color: $gray8;
+			font-size: 22px;
+			line-height: 25px;
+		}
+
+		&.alt3 {
+			@extend %montserrat-medium;
+			color: $gray8;
+			font-size: 18px;
+			line-height: 30px;
+		}
+
+		&.small {
+			font-size: 13px;
+			line-height: 18px;
+		}
+
+		&.red, .red {
+			color: $red;
+		}
+
+		&.white, .white {
+			color: $white;
+		}
+	}
+
+	h2 {
+		@extend %montserrat-bold;
+		color: $titleColor;
+		font-size: 30px;
+		line-height: 35px;
+		text-transform: uppercase;
+
+		&.main {
+			margin: 0 0 1%;
+			text-align: center;
+		}
+
+		&.big {
+			color: $titleColor3;
+			font-size: 60px;
+			line-height: 70px;
+		}
+	}
+
+	h3 {
+		@extend %montserrat-bold;
+		color: $titleColor;
+		font-size: 25px;
+		line-height: 30px;
+		text-transform: uppercase;
+
+		span {
+			color: $titleColor2;
+		}
+
+		&.alt {
+			@extend %montserrat-medium;
+			color: $titleColor2;
+			font-size: 22px;
+			line-height: 25px;
+			text-transform: none;
+
+
+			span {
+				@extend %montserrat-regular;
+				font-size: 15px;
+			}
+		}
+
+		&.alt2 {
+			font-size: 22px;
+			line-height: 22px;
+
+			span {
+				color: $titleColor3;
+			}
+		}
+
+		&.alt3 {
+			@extend %montserrat-regular;
+			font-size: 30px;
+			line-height: 40px;
+			text-transform: none;
+		}
+
+		&.alt4 {
+			font-size: 22px;
+			line-height: 26px;
+		}
+
+		&.big {
+			font-size: 45px;
+			line-height: 45px;
+
+			span {
+				color: $titleColor3;
+			}
+		}
+
+		&.big2 {
+			font-size: 30px;
+			line-height: 35px;
+		}
+
+		&.special {
+			@extend %montserrat-medium;
+			font-size: 30px;
+			line-height: 40px;
+			text-transform: none;
+		}
+
+		&.white, .white {
+			color: $titleColor3;
+		}
+
+		&.alt-dark {
+			color: #010101;
+		    margin-top: 4vh;
+		    margin-bottom: 2vh;
+		}
+	}
+
+
+	h4 {
+		@extend %montserrat-bold;
+		color: $titleColor;
+		font-size: 20px;
+		line-height: 25px;
+		text-transform: uppercase;
+	}
+
+	a, div {
+		&.link {
+			@extend %arial-bold;
+			color: $linkColor;
+			font-size: 13px;
+			line-height: 22px;
+			
+
+			&.menu {
+				@extend %montserrat-bold;
+				color: $linkColor2;
+				font-size: 13px;
+				line-height: 18px;
+				text-transform: uppercase;
+
+				span {
+					font-size: 16px;
+				}
+			}
+
+			&.big {
+				@extend %montserrat-medium;
+				color: $white;
+				font-size: inherit;
+				line-height: inherit;
+				font-weight: 400;
+			}
+
+			&.legal {
+				color: $gray;
+				font-size: inherit;
+				line-height: inherit;
+				font-weight: 400;
+			}
+
+			&.blue {
+				@extend %montserrat-bold;
+				font-weight: 700;
+				font-size: 24px;
+				line-height: 24px;
+				color: $blueLight;
+				text-transform: uppercase;
+			}
+
+			&.underline {
+				position: relative;
+
+				&::before {
+					@include transform(scaleX(0));
+					@include transition(all .3s ease-in-out 0s);
+					content: '';
+					position: absolute;
+					width: 100%;
+					height: 1px;
+					bottom: 0;
+					left: 0;
+					background-color: $red;
+					visibility: hidden;
+				}
+
+				&.big {
+
+					&::before {
+						background-color: $white;
+					}
+				}
+
+				&.blue {
+
+					&::before {
+						background-color: $blueLight;
+					}
+
+					&.selected {
+						&::before {
+							@include transform(scaleX(1));
+							visibility: visible;
+						}
+					}
+				}
+
+				&.legal {
+
+					&::before {
+						background-color: $gray;
+					}
+				}
+			}
+		}
+	}
+
+	.button {
+		@extend %montserrat-bold;
+		@include transition(background .5s ease);
+		@include border-radius(2px);
+		color: $buttonColor;
+		background: $red;
+		font-size: 12px;
+		line-height: 12px;
+		text-transform: uppercase;
+		padding: 13px 15px;
+		display: inline-block;
+		vertical-align: top;
+		cursor: pointer;
+		position: relative;
+		overflow: hidden;
+
+		&.disabled {
+			cursor: default;
+			background: $gray;
+		}
+
+		&.big {
+			font-size: 14px;
+			line-height: 14px;
+			padding: 12px 18px;
+		}
+
+		&.main {
+			@include border-radius(5px);
+			padding: 13px 15px;
+		}
+
+		&.icon {
+			@include border-radius(5px);
+			padding: 9px;
+		}
+
+		&.facebook {
+			background: $facebook;
+		}
+
+		&.twitter {
+			background: $twitter;
+		}
+
+		&.instagram {
+			background: $instagram;
+		}
+	}
+
+	.no-button {
+		@extend %montserrat-bold;
+		@include transition(background .5s ease);
+		@include border-radius(5px);
+		cursor: default;
+		text-align: center;
+		color: $buttonColor;
+		background: $gray;
+		display: block;
+		font-size: 14px;
+		line-height: 18px;
+		text-transform: uppercase;
+		position: relative;
+		padding: 13px 15px;
+
+		&.green {
+			background: $green2;
+		}
+
+		&.red {
+			background: $red;
+		}
+	}
+
+	input, textarea, select {
+		@extend %arial-regular;
+		@include border-radius(5px);
+		color: $gray;
+		font-size: 15px;
+		line-height: 22px;
+		background-color: $white;
+		border: 1px solid $gray6;
+		padding: 10px 15px;
+	}
+
+	select {
+
+		option {
+			background: $white;
+		}
+	}
+
+	@include mobile {
+
+		h2 {
+			font-size: 25px;
+			line-height: 30px;
+
+			&.main {
+				margin: 0 0 2%;
+				text-align: center;
+			}
+
+			&.big {
+				font-size: 40px;
+				line-height: 50px;
+			}
+
+
+		}
+
+		p {
+			&.main {
+				margin: 0 auto 4%;
+			}
+		}
+
+		a {
+
+			&.link {
+
+				&.menu {
+
+					span {
+						font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+
+	@include mobileMedium {
+		p {
+			&.bigger, .bigger {
+				font-size: 15px;
+				line-height: 25px;
+			}
+		}
+
+		h2 {
+			font-size: 23px;
+			line-height: 28px;
+
+			&.big {
+				font-size: 30px;
+				line-height: 40px;
+			}
+		}
+
+		h3 {
+			font-size: 22px;
+			line-height: 27px;
+
+			&.big2 {
+				font-size: 25px;
+				line-height: 35px;
+			}
+			&.alt {
+				font-size: 18px;
+				line-height: 21px;
+			}
+		}
+
+
+		.button {
+			padding: 6px 10px;
+		}
+
+		.no-button {
+			font-size: 10px;
+			line-height: 14px;
+			padding: 6px 10px;
+		}
+
+		a, div {
+
+			&.link {
+
+				&.menu {
+					font-size: 10px;
+					line-height: 16px;
+
+					span {
+						font-size: 10px;
+					}
+				}
+			}
+		}
+
+		nav ul li a.menu {
+			margin: 0 !important;
+		}
+	}
+
+	@include nomobile {
+		.button {
+
+			&::after {
+				@include border-radius(50%);
+				@include transition(all .5s ease);
+				display: block;
+				z-index: 1;
+				content: '';
+				position: absolute;
+				margin-left: auto;
+				margin-right: auto;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				width: 0;
+				height: 0;
+				background: $whitedot1;
+			}
+
+			&.disabled {
+				&:hover, &:focus {
+					background: $gray;
+				}
+				&::after {
+					content: none;
+				}
+			}
+
+			&:hover, &:focus {
+				background: $redDark;
+
+				&::after {
+					width: 250%;
+					height: 250%;
+				}
+			}
+
+			&.facebook {
+
+				&:hover, &:focus {
+					background: $facebookDark;
+				}
+			}
+
+			&.twitter {
+
+				&:hover, &:focus {
+					background: $twitterDark;
+				}
+			}
+
+			&.instagram {
+
+				&:hover, &:focus {
+					background: $instagramDark;
+				}
+			}
+
+		}
+
+		a, div {
+
+			&.link {
+
+				&.underline {
+
+					&:hover, &:focus {
+
+						&::before {
+							@include transform(scaleX(1));
+							visibility: visible;
+						}
+					}
+				}
+			}
+		}
+	}
+
+}

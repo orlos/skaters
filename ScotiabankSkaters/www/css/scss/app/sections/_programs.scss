@@ -1,0 +1,110 @@
+// ==============================================
+// PROGRAMS
+// ==============================================
+
+.programs {
+
+	.wrapper {
+		padding: 4% 0 0;
+	}
+
+	.carousel {
+		position: relative;
+
+		.item {
+			padding: 0 4%;
+			display: block;
+			div {
+				&.link {
+					display: inline-block;
+					vertical-align: top;
+				}
+			}
+		}
+
+		img {
+			width: 100%;
+		}
+
+		h3 {
+			margin: 4% 0;
+		}
+
+		p {
+			margin: 0 0 4%;
+		}
+
+		.owl-carousel {
+			padding: 0 40px;
+
+			.owl-nav {
+
+				.owl-prev, .owl-next {
+					@include translateY(0);
+					top: 80px;
+				}
+
+				.owl-prev {
+					left: 0;
+				}
+
+				.owl-next {
+					right: 0;
+				}
+			}
+		}
+	}
+}
+
+@include mobile {
+	.programs {
+
+		.wrapper {
+			padding: 8% 0 0;
+		}
+
+		.carousel {
+
+			.owl-carousel {
+
+				padding: 0;
+
+				.owl-nav {
+					display: none;
+				}
+			}
+		}
+
+		a {
+			.link {
+				font-size: 16px;
+				line-height: 20px;
+			}
+		}
+	}
+}
+
+@include nomobile {
+	.programs {
+
+		.carousel {
+
+			.item {
+
+				&:hover, &:focus {
+					
+					.link {
+
+						&.underline {
+
+							&::before {
+								@include transform(scaleX(1));
+								visibility: visible;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

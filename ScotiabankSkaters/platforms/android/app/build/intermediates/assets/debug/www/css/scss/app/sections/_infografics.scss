@@ -1,0 +1,379 @@
+// ==============================================
+// INFOGRAFICS
+// ==============================================
+
+.infographics {
+
+	.wrapper {
+		padding: 4% 0 0;
+	}
+
+	.above {
+		@include flex-container(flex-start, stretch);
+		margin: 2% 0 0;
+		overflow: hidden;
+
+		> div {
+
+			&:first-child {
+				width: 25%;
+			}
+
+			&:last-child {
+				width: 75%;
+			}
+		}
+	}
+
+	.left {
+		padding: 2%;
+		background: $red;
+	}
+
+	.top {
+
+		text-align: center;
+		margin-top: 30px;
+
+		p {
+			padding: 3% 0 6%;
+		}
+
+		img {
+			margin: 10px 0;
+		}
+	}
+
+	.bottom {
+		border-top: 1px solid $black;
+		padding: 6% 0;
+
+		img {
+			margin: 10px 0;
+		}
+	}
+
+	.block {
+		display: block;
+		text-align: center;
+		font-size: 14px;
+		line-height: 17px;
+		&.biggest {
+			font-size: 40px;
+			line-height: 40px;
+			padding: 6% 0;
+		}
+	}
+
+	.right {
+		padding: 2%;
+		background-color: $black;
+		background-repeat: no-repeat;
+		background-position: right center;
+		background-size: auto 100%;
+
+		> div {
+			@include flex-container(flex-start, center);
+			margin: 2% 0 0;
+
+			> div {
+
+				&:nth-child(1) {
+					width: 10%;
+				}
+
+				&:nth-child(2) {
+					width: 20%;
+					padding: 0 0 0 2%;
+				}
+
+				&:nth-child(3) {
+					width: 70%;
+					padding: 0 0 0 2%;
+				}
+			}
+		}
+
+		p {
+			font-size: 15px;
+			line-height: 18px;
+
+			&.parent {
+				margin: 0 0 2%;
+				max-width: 350px;
+			}
+
+			&.sons {
+				padding: 2% 0 0;
+			}
+
+			&.bigger {
+				font-size: 30px;
+				line-height: 30px;
+			}
+
+			&.side {
+				max-width: 240px;
+			}
+		}
+
+		h3 {
+			font-size: 30px;
+			line-height: 35px;
+			max-width: 350px;
+			margin: 0 0 2%;
+		}
+	}
+}
+
+@media (max-width: 960px) {
+	.infographics {
+
+		.above {
+
+			> div {
+
+				&:first-child {
+					width: 30%;
+				}
+
+				&:last-child {
+					width: 70%;
+				}
+			}
+		}
+
+		.right {
+			background-position: 75% center;
+
+			> div {
+				margin: 4% 0 0;
+
+				> div {
+
+					&:nth-child(1) {
+						width: 10%;
+					}
+
+					&:nth-child(2) {
+						width: 20%;
+					}
+
+					&:nth-child(3) {
+						width: 70%;
+					}
+				}
+			}
+
+			p {
+				&.parent {
+					margin: 0 0 4%;
+				}
+
+				&.sons {
+					padding: 4% 0 0;
+				}
+
+				&.bigger {
+					font-size: 25px;
+					line-height: 25px;
+				}
+			}
+
+			h3 {
+				margin: 0 0 4%;
+			}
+		}
+	}
+}
+
+@include mobile {
+	.infographics {
+
+		.above {
+
+			> div {
+
+				&:first-child {
+					width: 35%;
+				}
+
+				&:last-child {
+					width: 65%;
+				}
+			}
+		}
+
+		.right {
+			background-image: none !important;
+
+			> div {
+				@include flex-container(flex-start, flex-start);
+				margin: 4% 0 0;
+
+				> div {
+
+					&:nth-child(1) {
+						width: 20%;
+					}
+
+					&:nth-child(2) {
+						width: 80%;
+					}
+				}
+			}
+
+			p {
+				&.parent {
+					margin: 0 0 4%;
+				}
+
+				&.sons {
+					padding: 4% 0 0;
+				}
+			}
+
+			h3 {
+				margin: 0 0 4%;
+			}
+		}
+	}
+}
+
+@media (max-width: 650px) {
+	.infographics {
+
+		.block {
+
+			&.biggest {
+				font-size: 35px;
+				line-height: 35px;
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.infographics {
+
+		.top {
+			p {
+				padding: 10% 0 20%;
+			}
+		}
+
+		.bottom {
+			padding: 20% 0;
+		}
+
+		.block {
+			&.biggest {
+				padding: 20% 0;
+			}
+		}
+
+		.right {
+
+			h3 {
+				font-size: 25px;
+				line-height: 30px;
+				max-width: 300px;
+			}
+
+			p {
+
+				&.parent {
+					max-width: 300px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 570px) {
+	.infographics {
+
+		.block {
+
+			&.biggest {
+				font-size: 30px;
+				line-height: 30px;
+			}
+		}
+	}
+}
+
+@media (max-width: 510px) {
+	.infographics {
+
+		.above {
+
+			> div {
+
+				&:first-child {
+					width: 30%;
+				}
+
+				&:last-child {
+					width: 70%;
+				}
+			}
+		}
+
+		.block {
+			font-size: 12px;
+			line-height: 15px;
+			&.biggest {
+				font-size: 25px;
+				line-height: 25px;
+			}
+		}
+
+		.right {
+
+			h3 {
+				font-size: 20px;
+				line-height: 25px;
+				max-width: 300px;
+			}
+
+			p {
+				font-size: 13px;
+				line-height: 16px;
+				&.parent {
+					max-width: 300px;
+				}
+				&.bigger {
+					font-size: 27px;
+					line-height: 27px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 470px) {
+	.infographics {
+
+		.left {
+			padding: 6% 2%;
+		}
+
+		.block {
+			&.biggest {
+				font-size: 20px;
+				line-height: 20px;
+			}
+		}
+
+		.right {
+
+			p {
+				&.bigger {
+					font-size: 22px;
+					line-height: 22px;
+				}
+			}
+		}
+	}
+}

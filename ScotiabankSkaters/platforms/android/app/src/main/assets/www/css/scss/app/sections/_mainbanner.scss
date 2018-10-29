@@ -1,0 +1,252 @@
+// ==============================================
+// MAIN BANNER
+// ==============================================
+
+.mainbanner {
+	background-color: $black;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	padding: 3% 0;
+
+	h2, h3, p {
+		margin: 0 0 2%;
+	}
+
+	h2 {
+		&.big {
+			color: $red;
+		}
+	}
+
+	.logos {
+		@include flex-container;
+		max-width: 580px;
+		position: relative;
+
+		&:before {
+			background: rgba(0, 0, 0, 0.6);
+			content: '';
+			display: inline-block;
+			height: 100%;
+			left: -20px;
+			padding: 20px;
+			position: absolute;
+			top: -20px;
+			width: 100%;
+			z-index: -1;
+		}
+
+		.item {
+			margin: 0 5px;
+			img {
+				max-width: 63px;
+			}
+		}
+	}
+
+	.buttons {
+		max-width: 216px;
+
+		.button {
+			width: 100%;
+			text-align: center;
+			margin: 6% 0 0;
+		}
+	}
+
+	.button {
+		@include transition(opacity .5s ease);
+		margin: 4% 0 0;
+
+		&.inactive {
+			display: none;
+		}
+	}
+
+	.owl-carousel {
+		max-width: 550px;
+
+		.owl-stage-outer {
+			overflow: hidden;
+		}
+
+		.item {
+			text-align: center;
+		}
+
+		.owl-nav {
+			display: none;
+		}
+	}
+}
+
+.page {
+
+	&.skaters, &.skaters-rules, &.skaters-post {
+
+		.mainbanner {
+			background-image: url('../img/banner-boys.jpg?3');
+			background-position: right center;
+
+			h2, h3, p {
+				max-width: 550px;
+			}
+		}
+	}
+
+	//&.skaters-post {
+	//	.mainbanner {
+	//		background-size: cover;
+	//	}
+	//}
+
+	&.girls-hockey-fest {
+
+		.mainbanner {
+			background-image: url('../img/banner-girls.jpg');
+
+			h2 {
+				max-width: 610px;
+			}
+
+			p {
+				max-width: 510px;
+			}
+		}
+	}
+
+	.mainbanner-hohd {
+		background-image: url('../img/hohd-coming.jpg?v2');
+		height: 400px;
+		background-position: center 0;
+    	background-size: cover;
+	}
+
+	&.helpful-tools {
+
+		.mainbanner {
+			background-image: url('../img/banner-tools.jpg');
+			padding: 5% 0;
+
+			h2, p {
+				max-width: 490px;
+			}
+
+			p {
+				margin: 0;
+			}
+		}
+	}
+}
+
+@include fromBiggestDesktop {
+	.page {
+
+		&.skaters, &.skaters-rules, &.skaters-post {
+			.mainbanner {
+				background-position: right center !important;
+			}
+		}
+
+		.mainbanner-hohd {
+			background-position: center -90px;
+		}
+
+	}
+}
+
+@include biggestDesktop {
+	.fr {
+		.mainbanner {
+			background-position: 30% center;
+		}
+	}
+}
+
+@include littleDesktop {
+
+	.mainbanner {
+		background-position: 40% center;
+	}
+}
+
+@include mobile {
+
+	.page {
+
+		&.skaters {
+
+			.mainbanner {
+				background-image: url('../img/banner-boys.jpg?3');
+				background-position: 65% top;
+				background-size: auto 115%;
+
+				h3 {
+					max-width: 75%;
+				}
+
+				p {
+					max-width: 60%;
+				}
+			}
+		}
+
+		&.girls-hockey-fest {
+
+			.mainbanner {
+				background-image: url('../img/banner-girls-mobile.jpg');
+				background-position: right center;
+				background-size: auto 100%;
+
+				p {
+					max-width: 60%;
+				}
+			}
+		}
+
+		&.helpful-tools {
+
+			.mainbanner {
+				background-image: url('../img/banner-tools-mobile.jpg');
+				background-position: right center;
+				background-size: auto 100%;
+
+				p {
+					max-width: 60%;
+				}
+			}
+		}
+	}
+
+	.mainbanner {
+
+		.owl-carousel {
+			padding: 0 5% 0 0;
+
+			.owl-stage-outer {
+				overflow: visible;
+			}
+		}
+
+		.logos .item img {
+			max-width: 100%;
+		}
+	}
+
+	.page .mainbanner-hohd {
+		height: 200px;
+		background-position: center top;
+		background-size: 150%;
+	}
+}
+
+@include mobileMedium {
+
+	.mainbanner {
+
+		h3, p {
+			max-width: 100%;
+		}
+	}
+}

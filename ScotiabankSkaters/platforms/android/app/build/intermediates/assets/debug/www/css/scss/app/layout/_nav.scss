@@ -1,0 +1,161 @@
+// ==============================================
+// NAV
+// ==============================================
+
+nav {
+	@include box-shadow(0 0 40px $blackdot5);
+	z-index: 2;
+
+	ul {
+
+		&.no-carousel {
+			@include flex-container(center, stretch);
+		}
+
+		li {
+
+			a {
+				&.menu {
+					padding: 15px;
+					margin: 0 5px;
+					display: block;
+					text-align: center;
+					position: relative;
+					height: 100%;
+
+					&::before {
+						@include transform(scaleX(0));
+						@include transition(all .3s ease-in-out 0s);
+						content: '';
+						position: absolute;
+						width: 100%;
+						height: 4px;
+						bottom: 0;
+						left: 0;
+						background-color: $red;
+						visibility: hidden;
+					}
+
+					&.active {
+						&::before {
+							@include transform(scaleX(1));
+							visibility: visible;
+						}
+					}
+				}
+			}
+
+			div {
+				display: table;
+				width: 100%;
+				height: 100%;
+
+				> div {
+					display: table-cell;
+					vertical-align: middle;
+					text-align: center;
+				}
+			}
+		}
+	}
+
+	.owl-carousel {
+		padding: 0 30px;
+
+		.owl-stage-outer {
+			overflow: hidden;
+		}
+
+		.owl-stage {
+			@include flex-container(flex-start, stretch);
+		}
+
+		.owl-prev, .owl-next {
+		    background: url(../img/arrows-invert.png) no-repeat !important;
+		}
+
+		/*.owl-nav {
+			display: none;
+		}*/
+
+		.owl-prev {
+			top: 50% !important;
+			left: 0 !important;
+		}
+
+		.owl-next {
+			top: 50% !important;
+			right: 0 !important;
+			background-position: -30px 0 !important;
+		}
+
+		li {
+			height: 100%;
+		}
+	}
+}
+
+@include littleDesktop {
+	nav {
+
+		ul {
+
+			&.no-carousel {
+				li {
+					@include flex-item;
+				}
+			}
+
+			li {
+
+				a {	
+					&.menu {
+						padding: 15px 10px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include ipadPortrait {
+	nav {
+
+		ul {
+
+			li {
+
+				a {	
+					&.menu {
+						padding: 10px 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include nomobile {
+	nav {
+
+		ul {
+
+			li {
+
+				a {
+
+					&.menu {
+
+						&:hover {
+
+							&::before {
+								@include transform(scaleX(1));
+								visibility: visible;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

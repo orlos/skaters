@@ -1,0 +1,168 @@
+
+body.heroes {
+
+	//#nav {
+	//	margin-bottom: 30px;
+	//}
+
+	h2 + p{
+	    font-family: 'Montserrat-Medium', sans-serif;
+	    font-size: 22px;
+	    line-height: 1.5em;
+	    padding-bottom: 40px;
+
+	    & + h2 {
+	    	margin-bottom: 30px;
+	    }
+	}
+
+	.videos .wrapper {
+		border-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	#player {
+		margin-bottom: 22px;
+		padding: 0 46px;
+	}
+
+	.product-grid, .bios-grid {
+		display: flex;
+
+		> * {
+			flex: 1;
+		}
+	}
+
+	.bios-grid {
+
+		margin-bottom: 40px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #bebebe;
+
+		h5 {
+			text-align: center;
+			@extend %montserrat-medium;
+			font-size: 22px;
+			color: #656565;
+			margin-top: 20px;
+		}
+
+		& > * {
+	
+			margin-bottom: 20px;
+
+			&:first-child {
+				margin-right: 30px;
+			}
+		}
+	}
+
+	.video-title {
+		@extend %montserrat-medium;
+		margin: 20px 0;
+		font-size: 22px;
+		text-transform: none;
+		font-weight: normal;
+		color: #656565;
+
+		span {
+			font-size: 15px;
+    		font-family: 'Arial', sanserif;
+		}
+	}
+
+	.carousel {
+		margin-bottom: 30px;
+
+		.item {
+			text-align: left;
+		}
+	}
+
+	.videos .carousel .owl-carousel .owl-nav .owl-prev, .videos .carousel .owl-carousel .owl-nav .owl-next {
+		top: 60px;
+	}
+
+	.scotiabank-passport {
+		background: black;
+		text-align: right;
+
+		div {
+			text-align: left;
+			background: url('../img/scotiapassport-bg.jpg') no-repeat right center;
+
+			p {
+				color: white;
+			}
+		}
+	}
+
+	.scotiabank-one {
+		background: #d5d5d5;
+
+		div {
+			background: url('../img/scotia-one-bg.jpg') no-repeat right center;
+		}
+	}
+
+	.scotiabank-passport, .scotiabank-one {
+		div {
+			max-width: 475px;
+			display: inline-block;
+			padding: 40px 30px;
+			width: 100%;
+		}
+
+		p {
+			max-width: 178px;
+			height: 100px;
+			margin: 30px 0 20px;
+		}
+
+		.button {
+			@include border-radius(5px);
+		}
+	}
+
+}
+
+@include mobile {
+
+	body.heroes {
+
+		//#nav {
+		//	margin-bottom: 10px;
+		//}
+
+		.product-grid, .bios-grid {
+			display: block;
+		}
+
+		.bios-grid {
+			& > * {
+				&:first-child {
+					margin-right: 0;
+				}
+			}
+		}
+
+		.scotiabank-passport div {
+			background-size: 60%;
+		}
+
+		.scotiabank-one div {
+			background-size: 50%;
+		}
+
+		h2+p {
+			font-size: 15px;
+		}
+
+		#player {
+			padding: 0;
+		}
+
+	}
+
+}

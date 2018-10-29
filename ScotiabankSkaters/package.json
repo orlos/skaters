@@ -1,0 +1,32 @@
+{
+		"name": "scotiabankskaters",
+		"version": "0.0.1",
+		"description": "Scotiabank Skaters Native App",
+		"author": "Majestic Ltd.",
+		"devDependencies": {
+				"grunt-contrib-compass": "^1.1.0",
+				"grunt-contrib-concat": "^0.5.1",
+				"grunt-contrib-jshint": "^1.0.0",
+				"grunt-contrib-uglify": "~0.5.0",
+				"grunt-contrib-watch": "^1.0.0",
+				"grunt-majestic-updateversions": "^0.3.0",
+				"grunt-phpcs": "^0.4.0",
+				"grunt-sass-lint": "^0.2.4"
+		},
+		"dependencies": {
+				"cordova-android": "^7.1.1",
+				"cordova-browser": "^5.0.4",
+				"cordova-sqlite-storage": "^2.5.0",
+				"grunt": "^0.4.0"
+		},
+		"repository": {
+				"type": "git",
+				"url": "https://bitbucket.org/majesticmedia/scotiabank-skaters-mobile-app/src/master/"
+		},
+		"cordova": {
+				"plugins": {
+						"cordova-plugin-network-information": {},
+						"cordova-sqlite-storage": {}
+				}
+		}
+}

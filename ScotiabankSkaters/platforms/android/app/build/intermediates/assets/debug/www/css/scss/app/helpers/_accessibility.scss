@@ -1,0 +1,31 @@
+// ==============================================
+// ACCESSIBILITY
+// ==============================================
+
+// Screen reader text
+$srt-background-color: $white;
+$srt-font-color: $black;
+
+.srt {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute;
+
+	&:focus {
+		@extend %arial-regular;
+		background-color: $srt-background-color;
+		color: $srt-font-color;
+		clip: auto;
+		display: block;
+		font-size: 18px;
+		height: auto;
+		line-height: normal;
+		padding: 10px 20px;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+		text-decoration: none;
+		text-transform: none;
+		width: auto;
+		z-index: 100000;
+	}
+}
