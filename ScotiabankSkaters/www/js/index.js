@@ -19,7 +19,8 @@ var $formCheckboxOption = $(".form-checkbox-option");
 var $logosForm = $("#form-boys").find(".owl-carousel");
 var $videosBoys = $("#videos-boys").find(".owl-carousel");
 
-var $baseUrl = ""
+var $baseUrl = "https://scotia-hockey-hub.majesticdev.ca/";
+
 $(function() {
     initLogosForm();
     initVideosBoys();
@@ -310,7 +311,7 @@ var app = {
         app.receivedEvent('deviceready');
         $("#form-boys").fadeIn();
 
-        var db = window.sqlitePlugin.openDatabase({name: "skaters.db", location: 'default'});
+       /* var db = window.sqlitePlugin.openDatabase({name: "skaters.db", location: 'default'});
 
         db.transaction(function(tx) {
             // tx.executeSql('DROP TABLE IF EXISTS pending_submissions');
@@ -331,7 +332,7 @@ var app = {
         });
 
 
-
+*/
 
 	$linkFormBoysSubmit.click(function(e) {
 		e.preventDefault();
@@ -395,7 +396,7 @@ var app = {
 
 
     		$.ajax({
-    			url: "/wp-admin/admin-ajax.php?action=register_new_applicant_ajax_request" + posvars,
+    			url: $baseUrl+"/wp-admin/admin-ajax.php?action=register_new_applicant_ajax_request" + posvars,
     			type: 'GET'
     		}).done(function(result) {
                 var respond = JSON.parse(result);
