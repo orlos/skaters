@@ -2,9 +2,9 @@
 <widget id="com.scotiabankhockeyclub.skaters" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>ScotiabankSkaters</name>
     <description>
-        ScotiabankSkaters is an app that allow Scotiabank to register their skaters and fans.
+        Hello World sample application that responds to the deviceready event.
     </description>
-    <author email="orlando.vicuna@majesticagency.ca" href="http://majesticagency.ca">
+    <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
     <content src="index.html" />
@@ -116,5 +116,6 @@
     <preference name="SplashScreenDelay" value="0" />
     <preference name="FadeSplashScreenDuration" value="0" />
     <plugin name="cordova-plugin-network-information" spec="~1.2.1" />
-    <plugin name="cordova-sqlite-storage" spec="^2.5.0" />
+    <access origin="http://scotia-hockey-hub.majesticdev.ca" />
+    <access origin="https://scotiabankhockeyclub.com" />
 </widget>
