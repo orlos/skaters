@@ -79,7 +79,7 @@ function initLogosForm() {
         navText: false,
         dots: false,
         loop: true,
-        touchDrag: false,
+        touchDrag: true,
         mouseDrag: false,
         responsive : {
             0 : {

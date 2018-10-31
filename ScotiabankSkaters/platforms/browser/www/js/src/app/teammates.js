@@ -37,7 +37,7 @@ function initCarouselTeammates() {
         navText: false,
         loop: true,
         dots: false,
-        touchDrag: false,
+        touchDrag: true,
         mouseDrag: false,
         responsive : {
             0 : {

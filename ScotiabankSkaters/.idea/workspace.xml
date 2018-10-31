@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e479e6-6c0f-42c2-8c3d-39b93f945fff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/index.js" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/index.js" />
-      <change beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/app.min.js" afterPath="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/app.min.js" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/index.js" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/app.min.js" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/app.min.js" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/src/app/teammates.js" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/src/app/teammates.js" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/js/app.min.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/app.min.js" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/js/src/app/teammates.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/src/app/teammates.js" />
+      <change beforePath="$PROJECT_DIR$/www/js/app.min.js" afterPath="$PROJECT_DIR$/www/js/app.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/js/src/app/teammates.js" afterPath="$PROJECT_DIR$/www/js/src/app/teammates.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,31 +31,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+            <state relative-caret-position="199">
+              <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boys.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/src/app/boys.js">
+      <file leaf-file-name="teammates.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/src/app/teammates.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.rb">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="199">
+              <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/app.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="5038" column="17" lean-forward="false" selection-start-line="5038" selection-start-column="8" selection-end-line="5038" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.min.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/app.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="5043" column="24" lean-forward="true" selection-start-line="5043" selection-start-column="24" selection-end-line="5043" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -61,18 +87,6 @@
             <state relative-caret-position="102">
               <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="android.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/android.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1540847926192" expanded="true" signature="1259:1262" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -179,6 +193,10 @@
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/js/index.js" />
+        <option value="$PROJECT_DIR$/www/js/src/app/teammates.js" />
+        <option value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/index.js" />
+        <option value="$PROJECT_DIR$/www/js/app.min.js" />
+        <option value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/app.min.js" />
       </list>
     </option>
   </component>
@@ -439,36 +457,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/css/scotia.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7758" lean-forward="false" selection-start-line="6" selection-start-column="7758" selection-end-line="6" selection-end-column="7758" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="117" column="59" lean-forward="false" selection-start-line="117" selection-start-column="59" selection-end-line="117" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/scss/app/sections/_form.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -805,8 +793,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        <state relative-caret-position="199">
+          <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/src/app/teammates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="5038" column="17" lean-forward="false" selection-start-line="5038" selection-start-column="8" selection-end-line="5038" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/app.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="5043" column="24" lean-forward="true" selection-start-line="5043" selection-start-column="24" selection-end-line="5043" selection-end-column="24" />
           <folding />
         </state>
       </provider>
