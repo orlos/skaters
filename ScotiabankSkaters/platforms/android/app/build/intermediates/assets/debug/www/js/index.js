@@ -19,7 +19,42 @@ var $formCheckboxOption = $(".form-checkbox-option");
 var $logosForm = $("#form-boys").find(".owl-carousel");
 var $videosBoys = $("#videos-boys").find(".owl-carousel");
 
-var $baseUrl = ""
+var $baseUrl = "http://scotia-hockey-hub.majesticdev.ca";
+
+window.__ConnectionStatus = "unknown";
+window.__IsConnectedToInternet = false;
+
+var $isSubmittingQueue = false;
+var $isSubmittingQueueItem = false;
+
+
+document.addEventListener("offline", ic_OnOffline, false);
+
+function ic_OnOffline() {
+    // Handle the offline event
+    window.__ConnectionStatus = "offline";
+    window.__IsConnectedToInternet = false;
+    console.log(window.__ConnectionStatus);
+}
+
+document.addEventListener("online", ic_OnOnline, false);
+
+function ic_OnOnline() {
+    // Handle the online event
+
+    window.__ConnectionStatus = "online";
+    window.__IsConnectedToInternet = true;
+    console.log(window.__ConnectionStatus);
+    console.log("LETS PROCESS QUEUE");
+
+    __processQueueSubmissions();
+    updatePendingSubmissions();
+
+
+}
+
+
+
 $(function() {
     initLogosForm();
     initVideosBoys();
@@ -28,6 +63,13 @@ $(function() {
     if( $('body').hasClass('skaters-post') )
         initPostSkaters();
 });
+
+var ID = function () {
+  // Math.random should be unique because of its seeding algorithm.
+  // Convert it to base 36 (numbers + letters), and grab the first 9 characters
+  // after the decimal.
+  return '_' + Math.random().toString(36).substr(2, 9);
+};
 
 function initLogosForm() {
 
@@ -289,6 +331,54 @@ function initPostSkaters() {
 }
 
 
+function tryParseJSON (jsonString){
+    try {
+        var o = JSON.parse(jsonString);
+
+        // Handle non-exception-throwing cases:
+        // Neither JSON.parse(false) or JSON.parse(1234) throw errors, hence the type-checking,
+        // but... JSON.parse(null) returns null, and typeof null === "object",
+        // so we must check for that, too. Thankfully, null is falsey, so this suffices:
+        if (o && typeof o === "object") {
+            return o;
+        }
+    }
+    catch (e) { }
+
+    return false;
+};
+
+function updatePendingSubmissions() {
+
+    $queue = $(".queue section");
+    $queueItems = $(".queue section .queueItem").remove();
+
+    $(".queue .queuetop").hide();
+    var $i = 0;
+    while( $i < window.localStorage.length) {
+
+
+        $currItem = window.localStorage.getItem(window.localStorage.key($i));
+        $currItemObj = tryParseJSON($currItem);
+
+        if($currItemObj !== false && $currItemObj.hasOwnProperty("emailAddress")) {
+
+            var HTML = '<div class="queueItem"><div class="lds-ripple"><div></div><div></div></div><aside><h3>'+
+            $currItemObj.parentsFirstName+ ' ' + $currItemObj.parentsLastName + '</h3>'+
+            '<p>Child: '+ $currItemObj.childsName + '</p>'+
+            '<p>Team: '+ $currItemObj.teamSelected +'</p></aside></div>';
+
+            $queue.append(HTML);
+            $(".queue .queuetop").fadeIn();
+
+            $i++;
+        } else {
+            window.localStorage.removeItem(window.localStorage.key($i));
+        }
+
+    }
+
+}
 
 var app = {
     // Application Constructor
@@ -309,28 +399,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
         $("#form-boys").fadeIn();
-
-        var db = window.sqlitePlugin.openDatabase({name: "skaters.db", location: 'default'});
-
-        db.transaction(function(tx) {
-            // tx.executeSql('DROP TABLE IF EXISTS pending_submissions');
-            tx.executeSql('CREATE TABLE IF NOT EXISTS pending_submissions (id integer primary key, source text, lang text, teamSelected text, parentsFirstName text, parentsLastName text, emailAddress text, phoneCode text, phoneNumber text, address text, city text, postalcode text, province text, childsName text, childsAge text, skatingAbility text, whatHockeyAssociation text, isScotiaHockeyClubMember text, isMajorityInProvince text,acceptTerms text, acceptReceiveMessages text )');
-
-
-
-            tx.executeSql("INSERT INTO pending_submissions (source, lang, teamSelected, parentsFirstName, parentsLastName, emailAddress, phoneCode, phoneNumber, address, city, postalcode, province, childsName, childsAge, skatingAbility, whatHockeyAssociation, isScotiaHockeyClubMember, isMajorityInProvince,acceptTerms, acceptReceiveMessages) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
-            [source, lang, teamSelected, parentsFirstName, parentsLastName, emailAddress, phoneCode, phoneNumber, address, city, postalcode, province, childsName, childsAge, skatingAbility, whatHockeyAssociation, isScotiaHockeyClubMember, isMajorityInProvince,acceptTerms, acceptReceiveMessages],
-            function(tx, res) {
-
-                console.log("insertId: " + res.insertId + " -- probably 1");
-                console.log("rowsAffected: " + res.rowsAffected + " -- should be 1");
-
-            }, function(e) {
-                console.log("ERROR: " + e.message);
-            });
-        });
-
-
+        updatePendingSubmissions();
 
 
 	$linkFormBoysSubmit.click(function(e) {
@@ -388,50 +457,57 @@ var app = {
             	}
             });
 
-            var posvars = '&source='+source+'&lang='+lang+'&teamSelected='+teamSelected+'&parentsFirstName='+parentsFirstName+'&parentsLastName='+parentsLastName+'&emailAddress='+emailAddress+'&phoneCode='+phoneCode+'&phoneNumber='+phoneNumber+'&address='+address+'&city='+city+'&postalcode='+postalcode+'&province='+province+'&childsName='+childsName+'&childsAge='+childsAge+'&skatingAbility='+skatingAbility+'&whatHockeyAssociation='+whatHockeyAssociation+'&isScotiaHockeyClubMember='+isScotiaHockeyClubMember+'&isMajorityInProvince='+isMajorityInProvince+'&acceptTerms='+acceptTerms+'&acceptReceiveMessages='+acceptReceiveMessages;
+            //var posvars = +'&teamSelected='+teamSelected+'&parentsFirstName='+parentsFirstName+'&parentsLastName='+parentsLastName+'&emailAddress='+emailAddress+'&phoneCode='+phoneCode+'&phoneNumber='+phoneNumber+'&address='+address+'&city='+city+'&postalcode='+postalcode+'&province='+province+'&childsName='+childsName+'&childsAge='+childsAge+'&skatingAbility='+skatingAbility+'&whatHockeyAssociation='+whatHockeyAssociation+'&isScotiaHockeyClubMember='+isScotiaHockeyClubMember+'&isMajorityInProvince='+isMajorityInProvince+'&acceptTerms='+acceptTerms+'&acceptReceiveMessages='+acceptReceiveMessages;
+
+
+            var skaterToSubmit = {
+                source:source,
+                lang:lang,
+                teamSelected:teamSelected,
+                parentsFirstName:parentsFirstName,
+                parentsLastName:parentsLastName,
+                emailAddress:emailAddress,
+                phoneCode:phoneCode,
+                phoneNumber:phoneNumber,
+                address:address,
+                city:city,
+                postalcode:postalcode,
+                province:province,
+                childsName:childsName,
+                childsAge:childsAge,
+                skatingAbility:skatingAbility,
+                whatHockeyAssociation:whatHockeyAssociation,
+                isScotiaHockeyClubMember:isScotiaHockeyClubMember,
+                isMajorityInProvince:isMajorityInProvince,
+                acceptTerms:acceptTerms,
+                acceptReceiveMessages:acceptReceiveMessages
+            };
+
+            window.localStorage.setItem("key_"+Date.now(), JSON.stringify(skaterToSubmit));
+            $("#form-boys form").trigger("reset");
+
+            $formBoys.hide();
+            $formBoysSuccess.fadeIn();
+
+            updatePendingSubmissions();
+            __processQueueSubmissions();
+            updatePendingSubmissions();
+
+
+            $('html, body').animate({
+                scrollTop: $formBoysSuccess.offset().top
+            }, 1000);
 
 
 
+            setTimeout(function(){
+
+                $formBoysSuccess.hide();
+                $formBoys.fadeIn();
+                        }, 3000);
 
 
-    		$.ajax({
-    			url: "/wp-admin/admin-ajax.php?action=register_new_applicant_ajax_request" + posvars,
-    			type: 'GET'
-    		}).done(function(result) {
-                var respond = JSON.parse(result);
 
-                //alert(result);
-                console.log(respond);
-
-                if(respond.status == 'ok') {
-                    $formBoys.hide();
-                    $formBoysSuccess.fadeIn();
-                    $('html, body').animate({
-                        scrollTop: $formBoysSuccess.offset().top
-                    }, 1000);
-                }else {
-                    if(respond.status == 'error') {
-                        if(respond.message == 'email-repeated') {
-                            msg = "<p class='form-error red'>Email address already used</p>";
-                            $('.form-control.email').closest('.form-wrapper').children('.form-errors').append(msg);
-                            toggleErrors($('.form-control.email'));
-                        }
-                        $('html, body').animate({
-                            scrollTop: $formBoys.offset().top
-                        }, 1000);
-                    }else {
-
-                        $('html, body').animate({
-                            scrollTop: $formBoys.offset().top
-                        }, 1000);
-                    }
-                }
-
-    		}).fail(function() {
-                $('html, body').animate({
-                    scrollTop: $formBoys.offset().top
-                }, 1000);
-    		});
         }
         else {
             $('html, body').animate({
@@ -635,3 +711,107 @@ function isPhoneNumber(phoneNumber) {
     var regex = /^\d{3}[-]\d{4}$/;
     return regex.test(phoneNumber);
 }
+
+
+function __processQueueSubmissions() {
+
+    if(true === window.__IsConnectedToInternet) {
+
+
+    if(false === $isSubmittingQueue) {
+
+                 $isSubmittingQueue = true;
+
+                 $queue = $(".queue section");
+                 $queueItems = $(".queue section .queueItem").remove();
+
+                 var $i = 0;
+                 while( $i < window.localStorage.length) {
+
+                     var $key = window.localStorage.key($i);
+
+
+                     $currItem = window.localStorage.getItem($key);
+                     $cIObj = tryParseJSON($currItem);
+
+                     if($cIObj !== false && $cIObj.hasOwnProperty("emailAddress")) {
+
+
+
+                         var posvars = '&teamSelected='+$cIObj.teamSelected+'&parentsFirstName='+$cIObj.parentsFirstName+'&parentsLastName='+$cIObj.parentsLastName+
+                         '&emailAddress='+$cIObj.emailAddress+'&phoneCode='+$cIObj.phoneCode+'&phoneNumber='+$cIObj.phoneNumber+'&address='+$cIObj.address+'&city='+$cIObj.city+
+                         '&postalcode='+$cIObj.postalcode+'&province='+$cIObj.province+'&childsName='+$cIObj.childsName+'&childsAge='+$cIObj.childsAge+'&skatingAbility='+$cIObj.skatingAbility+
+                         '&whatHockeyAssociation='+$cIObj.whatHockeyAssociation+'&isScotiaHockeyClubMember='+$cIObj.isScotiaHockeyClubMember+'&isMajorityInProvince='+$cIObj.isMajorityInProvince+
+                         '&acceptTerms='+$cIObj.acceptTerms+'&acceptReceiveMessages='+$cIObj.acceptReceiveMessages;
+
+
+
+                         console.log("Will submit");
+                         console.log(posvars);
+
+                         $.ajax({
+                             url: $baseUrl+"/wp-admin/admin-ajax.php?action=register_new_applicant_ajax_request" + posvars,
+                             type: 'GET'
+                         }).done(function(result) {
+                             var respond = JSON.parse(result);
+
+                             console.log(respond);
+
+                             if(respond.status == 'ok') {
+                                 window.localStorage.setItem($key, "OK");
+
+                             }else {
+
+                                 window.localStorage.setItem($key, "ERROR");
+
+                             }
+
+                             updatePendingSubmissions();
+
+
+
+                         }).fail(function() {
+
+                             console.log("failed");
+
+                         });
+
+
+
+                     } else {
+                          window.localStorage.setItem($key, "BAD");
+                          updatePendingSubmissions();
+
+                     }
+
+                     $i++;
+
+
+
+                 }
+
+                 $isSubmittingQueue = false;
+
+
+             } else {
+                 console.log("queue alre3ady being processed");
+
+             }
+
+         } else {
+             console.log("no connected to internet");
+             console.log("no connected to internet");
+
+
+         }
+
+
+}
+
+setInterval(function(){
+
+__processQueueSubmissions();
+updatePendingSubmissions();
+
+
+}, 60000);

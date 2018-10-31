@@ -1,13 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-20:12
-INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-20:12
-INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-20:12
-INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-20:12
+ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
 MERGED from [:CordovaLib] D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
-INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-20:12
-INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-20:12
-INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
 		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:102-144
 		INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml
@@ -110,3 +110,7 @@ uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:19:5-79
 	android:name
 		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:20:22-76
