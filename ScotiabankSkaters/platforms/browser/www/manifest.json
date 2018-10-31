@@ -4,8 +4,8 @@
   "name": "ScotiabankSkaters",
   "short_name": "ScotiabankSkaters",
   "version": "com.scotiabankhockeyclub.skaters",
-  "description": "Hello World sample application that responds to the deviceready event.",
-  "author": "PhoneGap Team",
+  "description": "Scotiabank App for Skaters registration.",
+  "author": "Majestic Agency",
   "icons": [],
   "start_url": "index.html"
 }
