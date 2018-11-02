@@ -2,15 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e479e6-6c0f-42c2-8c3d-39b93f945fff" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/android/drawable-hdpi-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/android/drawable-ldpi-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/android/drawable-mdpi-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/android/drawable-xhdpi-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/android/drawable-xxhdpi-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/android/drawable-xxxhdpi-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-40.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-40@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-50.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-50@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-60.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-60@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-60@3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-72.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-72@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-76.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-76@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-small.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-small@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon-small@3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/icons/ios/icon@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/android/drawable-land-hdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/android/drawable-land-ldpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/android/drawable-land-mdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/android/drawable-land-xhdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/android/drawable-land-xxhdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/android/drawable-land-xxxhdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/android/drawable-port-hdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/android/drawable-port-ldpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/android/drawable-port-mdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/android/drawable-port-xhdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/android/drawable-port-xxhdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/android/drawable-port-xxxhdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/ios/Default-568h@2x~iphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/ios/Default-667h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/ios/Default-736h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/ios/Default-Landscape-736h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/ios/Default-Landscape@2x~ipad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/ios/Default-Landscape~ipad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/ios/Default-Portrait@2x~ipad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/ios/Default-Portrait~ipad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/ios/Default@2x~iphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/res/screens/ios/Default~iphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/splash.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/app.min.js" afterPath="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/app.min.js" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/index.js" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/app.min.js" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/app.min.js" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/src/app/teammates.js" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/src/app/teammates.js" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/js/app.min.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/app.min.js" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/js/src/app/teammates.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/src/app/teammates.js" />
-      <change beforePath="$PROJECT_DIR$/www/js/app.min.js" afterPath="$PROJECT_DIR$/www/js/app.min.js" />
-      <change beforePath="$PROJECT_DIR$/www/js/src/app/teammates.js" afterPath="$PROJECT_DIR$/www/js/src/app/teammates.js" />
+      <change beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +63,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5488">
+            <state relative-caret-position="7990">
               <caret line="470" column="26" lean-forward="false" selection-start-line="470" selection-start-column="26" selection-end-line="470" selection-end-column="26" />
               <folding />
             </state>
@@ -34,7 +73,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="1377">
               <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="17" />
               <folding />
             </state>
@@ -44,7 +83,7 @@
       <file leaf-file-name="teammates.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/src/app/teammates.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="663">
               <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding />
             </state>
@@ -54,7 +93,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="1377">
               <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
               <folding />
             </state>
@@ -64,28 +103,28 @@
       <file leaf-file-name="app.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/app.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="87193">
               <caret line="5038" column="17" lean-forward="false" selection-start-line="5038" selection-start-column="8" selection-end-line="5038" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.min.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/app.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="284">
-              <caret line="5043" column="24" lean-forward="true" selection-start-line="5043" selection-start-column="24" selection-end-line="5043" selection-end-column="24" />
+              <caret line="5043" column="24" lean-forward="false" selection-start-line="5043" selection-start-column="24" selection-end-line="5043" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+            <state relative-caret-position="116">
+              <caret line="82" column="3" lean-forward="false" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -191,12 +230,12 @@
         <option value="$PROJECT_DIR$/plugins/fetch.json" />
         <option value="$PROJECT_DIR$/www/js/src/app/internetconnection.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/js/index.js" />
         <option value="$PROJECT_DIR$/www/js/src/app/teammates.js" />
         <option value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/index.js" />
         <option value="$PROJECT_DIR$/www/js/app.min.js" />
         <option value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/app.min.js" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -235,6 +274,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -278,8 +319,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,14 +460,13 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3225108" sideWeight="0.5168598" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3225108" sideWeight="0.51896733" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3225108" sideWeight="0.48314014" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3225108" sideWeight="0.48103267" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.062697574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -439,6 +477,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -718,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,9 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1540847926192" expanded="true" signature="1259:1262" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,23 +811,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5488">
+        <state relative-caret-position="7990">
           <caret line="470" column="26" lean-forward="false" selection-start-line="470" selection-start-column="26" selection-end-line="470" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="1377">
           <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="17" />
           <folding />
         </state>
@@ -801,7 +827,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/src/app/teammates.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="663">
           <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding />
         </state>
@@ -809,7 +835,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="1377">
           <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
           <folding />
         </state>
@@ -817,7 +843,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="87193">
           <caret line="5038" column="17" lean-forward="false" selection-start-line="5038" selection-start-column="8" selection-end-line="5038" selection-end-column="17" />
           <folding />
         </state>
@@ -826,7 +852,15 @@
     <entry file="file://$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/www/js/app.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
-          <caret line="5043" column="24" lean-forward="true" selection-start-line="5043" selection-start-column="24" selection-end-line="5043" selection-end-column="24" />
+          <caret line="5043" column="24" lean-forward="false" selection-start-line="5043" selection-start-column="24" selection-end-line="5043" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="82" column="3" lean-forward="false" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
           <folding />
         </state>
       </provider>
