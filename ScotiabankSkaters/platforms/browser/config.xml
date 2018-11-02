@@ -18,7 +18,7 @@
     <access origin="http://scotia-hockey-hub.majesticdev.ca" />
     <access origin="https://scotiabankhockeyclub.com" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-minSdkVersion" value="14" />
     <preference name="SplashScreenDelay" value="0" />
     <preference name="FadeSplashScreenDuration" value="0" />
 </widget>

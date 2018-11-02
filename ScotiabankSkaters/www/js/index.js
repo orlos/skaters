@@ -19,7 +19,7 @@ var $formCheckboxOption = $(".form-checkbox-option");
 var $logosForm = $("#form-boys").find(".owl-carousel");
 var $videosBoys = $("#videos-boys").find(".owl-carousel");
 
-var $baseUrl = "http://scotia-hockey-hub.majesticdev.ca";
+var $baseUrl = "https://scotia-hockey-hub.majesticdev.ca";
 
 window.__ConnectionStatus = "unknown";
 window.__IsConnectedToInternet = false;
@@ -509,7 +509,7 @@ var app = {
                             acceptReceiveMessages:acceptReceiveMessages
                         };
 
-                    window.localStorage.setItem("key_"+Date.now()+$extra, JSON.stringify(skaterToSubmit));
+                    window.localStorage.setItem("key_"+$extra, JSON.stringify(skaterToSubmit));
                 $extra++;
             }
             $("#form-boys form").trigger("reset");
@@ -766,16 +766,13 @@ function __processQueueSubmissions() {
 
 
 
-                         var posvars = '&teamSelected='+$cIObj.teamSelected+'&parentsFirstName='+$cIObj.parentsFirstName+'&parentsLastName='+$cIObj.parentsLastName+
+                         var posvars = '&teamSelected='+$cIObj.teamSelected+'&bypass='+$key+'&parentsFirstName='+$cIObj.parentsFirstName+'&parentsLastName='+$cIObj.parentsLastName+
                          '&emailAddress='+$cIObj.emailAddress+'&phoneCode='+$cIObj.phoneCode+'&phoneNumber='+$cIObj.phoneNumber+'&address='+$cIObj.address+'&city='+$cIObj.city+
                          '&postalcode='+$cIObj.postalcode+'&province='+$cIObj.province+'&childsName='+$cIObj.childsName+'&childsAge='+$cIObj.childsAge+'&skatingAbility='+$cIObj.skatingAbility+
                          '&whatHockeyAssociation='+$cIObj.whatHockeyAssociation+'&isScotiaHockeyClubMember='+$cIObj.isScotiaHockeyClubMember+'&isMajorityInProvince='+$cIObj.isMajorityInProvince+
                          '&acceptTerms='+$cIObj.acceptTerms+'&acceptReceiveMessages='+$cIObj.acceptReceiveMessages;
 
 
-
-                         console.log("Will submit");
-                         console.log(posvars);
 
                          $.ajax({
                              url: $baseUrl+"/wp-admin/admin-ajax.php?action=register_new_applicant_ajax_request" + posvars,
@@ -785,12 +782,14 @@ function __processQueueSubmissions() {
 
                              console.log(respond);
 
+                             $keyBypassed = respond.bypass;
+
                              if(respond.status == 'ok') {
-                                 window.localStorage.setItem($key, "OK");
+                                 window.localStorage.setItem($keyBypassed, "OK");
 
                              }else {
 
-                                 window.localStorage.setItem($key, "ERROR");
+                                 window.localStorage.setItem($keyBypassed, "ERROR");
 
                              }
 
@@ -835,7 +834,7 @@ function __processQueueSubmissions() {
 
 
 }
-
+/*
 setInterval(function(){
 
 __processQueueSubmissions();
@@ -843,3 +842,5 @@ updatePendingSubmissions();
 
 
 }, 3600000);
+
+*/
