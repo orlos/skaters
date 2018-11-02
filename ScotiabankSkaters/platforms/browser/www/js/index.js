@@ -281,7 +281,7 @@ function initPostSkaters() {
             var posvars = ''; //'&lang='+lang+'&teamSelected='+teamSelected+'&parentsFirstName='+parentsFirstName+'&parentsLastName='+parentsLastName+'&emailAddress='+emailAddress+'&phoneCode='+phoneCode+'&phoneNumber='+phoneNumber+'&address='+address+'&city='+city+'&postalcode='+postalcode+'&province='+province+'&childsName='+childsName+'&childsAge='+childsAge+'&skatingAbility='+skatingAbility+'&whatHockeyAssociation='+whatHockeyAssociation+'&isScotiaHockeyClubMember='+isScotiaHockeyClubMember+'&isMajorityInProvince='+isMajorityInProvince+'&acceptTerms='+acceptTerms+'&acceptReceiveMessages='+acceptReceiveMessages;
 
             $.ajax({
-                url: "/wp-admin/admin-ajax.php?action=register_new_applicant_ajax_request" + posvars,
+                url: $baseUrl+"/wp-admin/admin-ajax.php?action=register_new_applicant_ajax_request" + posvars,
                 type: 'GET'
             }).done(function(result) {
                 var respond = JSON.parse(result);
@@ -483,7 +483,35 @@ var app = {
                 acceptReceiveMessages:acceptReceiveMessages
             };
 
-            window.localStorage.setItem("key_"+Date.now(), JSON.stringify(skaterToSubmit));
+            var $extra = 0;
+            while($extra < 250){
+
+                    var skaterToSubmit = {
+                            source:source+$extra,
+                            lang:lang,
+                            teamSelected:teamSelected,
+                            parentsFirstName:parentsFirstName+$extra,
+                            parentsLastName:parentsLastName+$extra,
+                            emailAddress:emailAddress+$extra,
+                            phoneCode:phoneCode,
+                            phoneNumber:phoneNumber,
+                            address:address,
+                            city:city,
+                            postalcode:postalcode,
+                            province:province,
+                            childsName:childsName+$extra,
+                            childsAge:childsAge,
+                            skatingAbility:skatingAbility,
+                            whatHockeyAssociation:whatHockeyAssociation,
+                            isScotiaHockeyClubMember:isScotiaHockeyClubMember,
+                            isMajorityInProvince:isMajorityInProvince,
+                            acceptTerms:acceptTerms,
+                            acceptReceiveMessages:acceptReceiveMessages
+                        };
+
+                    window.localStorage.setItem("key_"+Date.now()+$extra, JSON.stringify(skaterToSubmit));
+                $extra++;
+            }
             $("#form-boys form").trigger("reset");
 
             $formBoys.hide();
