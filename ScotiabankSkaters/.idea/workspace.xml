@@ -4,150 +4,7 @@
     <list default="true" id="83e479e6-6c0f-42c2-8c3d-39b93f945fff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/index.js" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/android/drawable-hdpi-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/android/drawable-ldpi-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/android/drawable-mdpi-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/android/drawable-xhdpi-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/android/drawable-xxhdpi-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/android/drawable-xxxhdpi-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-40.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-40@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-50@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-60.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-60@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-60@3x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-72.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-72@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-76.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-76@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-small.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-small@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon-small@3x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/ios/icon@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/windows/Square150x150Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/windows/Square150x150Logo.scale-240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/windows/Square30x30Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/windows/Square310x310Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/windows/Square44x44Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/windows/Square44x44Logo.scale-240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/windows/Square70x70Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/windows/Square71x71Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/windows/Square71x71Logo.scale-240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/windows/StoreLogo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/windows/StoreLogo.scale-240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/windows/Wide310x150Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/windows/Wide310x150Logo.scale-240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/wp8/ApplicationIcon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icon/wp8/Background.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/android/drawable-land-hdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/android/drawable-land-ldpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/android/drawable-land-mdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/android/drawable-land-xhdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/android/drawable-land-xxhdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/android/drawable-land-xxxhdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/android/drawable-port-hdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/android/drawable-port-ldpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/android/drawable-port-mdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/android/drawable-port-xhdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/android/drawable-port-xxhdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/android/drawable-port-xxxhdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/ios/Default-568h@2x~iphone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/ios/Default-667h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/ios/Default-736h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/ios/Default-Landscape-736h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/ios/Default-Landscape@2x~ipad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/ios/Default-Landscape~ipad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/ios/Default-Portrait@2x~ipad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/ios/Default-Portrait~ipad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/ios/Default@2x~iphone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/ios/Default~iphone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/windows/SplashScreen.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/windows/SplashScreenPhone.scale-240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/screen/wp8/screen-portrait.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-land-hdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-land-ldpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-land-mdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-land-xxxhdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-hdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-ldpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-mdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-xhdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-xxhdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-xxxhdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-hdpi/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-ldpi/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-mdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-mdpi/icon.png" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxxhdpi/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" />
       <change beforePath="$PROJECT_DIR$/platforms/browser/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/index.js" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/drawable-hdpi-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/drawable-ldpi-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/drawable-mdpi-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/drawable-xhdpi-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/drawable-xxhdpi-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/drawable-xxxhdpi-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-40.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-40@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-50@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-60.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-60@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-60@3x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-72.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-72@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-76.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-76@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small@3x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows/Square150x150Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows/Square150x150Logo.scale-240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows/Square30x30Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows/Square310x310Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows/Square44x44Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows/Square44x44Logo.scale-240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows/Square70x70Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows/Square71x71Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows/Square71x71Logo.scale-240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows/StoreLogo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows/StoreLogo.scale-240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows/Wide310x150Logo.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows/Wide310x150Logo.scale-240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/wp8/ApplicationIcon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/wp8/Background.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/drawable-land-hdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/drawable-land-ldpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/drawable-land-mdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/drawable-land-xhdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/drawable-land-xxhdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/drawable-land-xxxhdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/drawable-port-hdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/drawable-port-ldpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/drawable-port-mdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/drawable-port-xhdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/drawable-port-xxhdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/drawable-port-xxxhdpi-screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default-568h@2x~iphone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default-667h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default-736h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default-Landscape-736h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default-Landscape@2x~ipad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default-Landscape~ipad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default-Portrait@2x~ipad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default-Portrait~ipad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default@2x~iphone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default~iphone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/windows/SplashScreen.scale-100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/windows/SplashScreenPhone.scale-240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/wp8/screen-portrait.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -172,8 +29,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="790" column="23" lean-forward="true" selection-start-line="790" selection-start-column="23" selection-end-line="790" selection-end-column="23" />
+            <state relative-caret-position="444">
+              <caret line="839" column="0" lean-forward="true" selection-start-line="839" selection-start-column="0" selection-end-line="839" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -283,11 +140,9 @@
       <find>.scotia-styles .topFooterMobile&gt;div h3</find>
       <find>.scotia-styles .topFooterMobile&gt;div&gt;aside</find>
       <find>statu</find>
-      <find>online</find>
       <find>teamSelected</find>
       <find>will</find>
       <find>updatePendingSubmissions</find>
-      <find>__processQueueSubmissions</find>
       <find>offline</find>
       <find>src=&quot;/</find>
       <find>&quot;/</find>
@@ -296,6 +151,8 @@
       <find>setItem</find>
       <find>$baseUrl</find>
       <find>register_new_applicant_ajax_request</find>
+      <find>online</find>
+      <find>__processQueueSubmissions</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -971,8 +828,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="790" column="23" lean-forward="true" selection-start-line="790" selection-start-column="23" selection-end-line="790" selection-end-column="23" />
+        <state relative-caret-position="444">
+          <caret line="839" column="0" lean-forward="true" selection-start-line="839" selection-start-column="0" selection-end-line="839" selection-end-column="0" />
           <folding />
         </state>
       </provider>

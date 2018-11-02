@@ -842,4 +842,4 @@ __processQueueSubmissions();
 updatePendingSubmissions();
 
 
-}, 60000);
+}, 3600000);
