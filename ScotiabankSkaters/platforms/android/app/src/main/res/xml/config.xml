@@ -47,7 +47,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <access origin="http://scotia-hockey-hub.majesticdev.ca" />
+    <access origin="https://scotia-hockey-hub.majesticdev.ca" />
     <access origin="https://scotiabankhockeyclub.com" />
     <icon qualifier="ldpi" src="www/res/icons/android/drawable-ldpi-icon.png" />
     <icon qualifier="mdpi" src="www/res/icons/android/drawable-mdpi-icon.png" />
@@ -73,4 +73,5 @@
     <preference name="android-minSdkVersion" value="14" />
     <preference name="SplashScreenDelay" value="0" />
     <preference name="FadeSplashScreenDuration" value="0" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
 </widget>
