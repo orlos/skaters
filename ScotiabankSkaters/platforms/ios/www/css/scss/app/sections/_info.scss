@@ -1,0 +1,80 @@
+// ==============================================
+// INFO
+// ==============================================
+
+.info {
+
+	.wrapper {
+		padding: 4% 0 0;
+	}
+
+	.grid {
+
+		@include flex-container(flex-start, center);
+
+		> div {
+			width: 50%;
+
+			&:first-child {
+				padding: 0 1% 0 0;
+			}
+
+			&:last-child {
+				padding: 0 0 0 1%;
+				text-align: center;
+			}
+		}
+	}
+
+
+	p {
+		margin: 5% 0;
+
+		&:last-child {
+			margin: 5% 0 0;
+		}
+	}
+}
+
+@include mobile {
+	.info {
+		.wrapper {
+			padding: 8% 0 0;
+		}
+
+		.grid {
+			@include flex-container(flex-start, flex-start, flex-start, nowrap, column);
+
+			> div {
+				width: 100%;
+
+				&:first-child {
+					padding: 0;
+				}
+
+				&:last-child {
+					padding: 4% 0 0;
+					display: none;
+				}
+			}
+		}
+
+
+		.special {
+			@include flex-container;
+
+			> * {
+
+				&:first-child {
+					width: 50%;
+					padding: 0 1% 0 0;
+				}
+
+				&:last-child {
+					width: 50%;
+					padding: 0 0 0 1%;
+				}
+			}
+		}
+	}
+}

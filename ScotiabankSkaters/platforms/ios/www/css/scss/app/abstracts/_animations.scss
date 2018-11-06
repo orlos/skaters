@@ -1,0 +1,359 @@
+// sass-lint:disable no-vendor-prefixes
+// ==============================================
+// ANIMATIONS
+// ==============================================
+
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.2
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2017 Daniel Eden
+ */
+
+.animated {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+
+	&.infinite {
+		animation-iteration-count: infinite;
+	}
+
+	&.hinge {
+		animation-duration: 2s;
+	}
+
+	&.flip {
+		@include backface;
+		animation-name: flip;
+	}
+
+	&.flipOutX,
+	&.flipOutY,
+	&.flipInX,
+	&.bounceIn,
+	&.bounceOut {
+		animation-duration: .75s;
+	}
+
+}
+
+@-webkit-keyframes flipInX {
+	from {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+		opacity: 0;
+	}
+
+	40% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+
+	60% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+		opacity: 1;
+	}
+
+	80% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+	}
+
+	to {
+		-webkit-transform: perspective(400px);
+		transform: perspective(400px);
+	}
+}
+
+
+@keyframes showUp {
+	from {
+		//background: $darkBlue5dot6;
+		opacity: 1;
+	}
+
+	to {
+		//background: transparent;
+		opacity: 0;
+	}
+}
+
+@keyframes flipInX {
+	from {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+		opacity: 0;
+	}
+
+	40% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+
+	60% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+		opacity: 1;
+	}
+
+	80% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+	}
+
+	to {
+		-webkit-transform: perspective(400px);
+		transform: perspective(400px);
+	}
+}
+
+.showup {
+
+	&.active {
+
+		&::after {
+			-webkit-animation-name: showUp;
+			animation-name: showUp;
+			animation-duration: 2s;
+			animation-fill-mode: forwards;
+		}
+	}
+}
+
+.flipInX {
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	-webkit-animation-name: flipInX;
+	animation-name: flipInX;
+}
+
+@keyframes bounce {
+	from, 20%, 40%, 60%, 80%, to {
+		animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+	}
+
+	0% {
+		transform: scale3d(.7, .7, .7);
+	}
+
+	20% {
+		transform: scale3d(1.1, 1.1, 1.1);
+	}
+
+	40% {
+		transform: scale3d(.9, .9, .9);
+	}
+
+	60% {
+		transform: scale3d(1.03, 1.03, 1.03);
+	}
+
+	80% {
+		transform: scale3d(.97, .97, .97);
+	}
+
+	to {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.bounce {
+	animation-name: bounce;
+	transform-origin: center bottom;
+}
+
+@keyframes pulse {
+	from {
+		transform: scale3d(1, 1, 1);
+	}
+
+	50% {
+		transform: scale3d(1.2, 1.2, 1.2);
+	}
+
+	to {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.pulse {
+	animation-name: pulse;
+}
+
+@keyframes fadeInDown {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -100%, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.fadeInDown {
+	animation-name: fadeInDown;
+}
+
+@keyframes fadeInLeft {
+	from {
+		opacity: 0;
+		transform: translate3d(-100%, 0, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.fadeInLeft {
+	animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+	from {
+		opacity: 0;
+		transform: translate3d(100%, 0, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.fadeInRight {
+	animation-name: fadeInRight;
+}
+
+@keyframes fadeInRightLittle {
+	from {
+		opacity: 0;
+		transform: translate3d(200px, 0, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.fadeInRightLittle {
+	animation-name: fadeInRightLittle;
+}
+
+@keyframes fadeInLeftLittle {
+	from {
+		opacity: 0;
+		transform: translate3d(-200px, 0, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.fadeInLeftLittle {
+	animation-name: fadeInLeftLittle;
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 100%, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.fadeInUp {
+	animation-name: fadeInUp;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeIn {
+	animation-name: fadeIn;
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+.fadeOut {
+	animation-name: fadeOut;
+}
+
+@keyframes fadeOutDownInDown {
+	0% {
+		opacity: 1;
+	}
+
+	40% {
+		opacity: 0;
+		transform: translate3d(0, 100%, 0);
+	}
+
+	50% {
+		opacity: 0;
+		transform: translate3d(0, -100%, 0);
+	}
+
+	100% {
+		opacity: 1;
+	}
+
+}
+
+.fadeOutDownInDown {
+	animation-name: fadeOutDownInDown;
+}
+
+// GLITCH
+@keyframes noise-anim {
+	$steps: 20;
+	@for $i from 0 through $steps {
+		#{percentage($i*(1/$steps))} {
+			clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+		}
+	}
+}
+
+@keyframes noise-anim-2 {
+	$steps: 20;
+	@for $i from 0 through $steps {
+		#{percentage($i*(1/$steps))} {
+			clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+		}
+	}
+}

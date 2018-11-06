@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *"/>
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+
+
+    <!-- STYLESHEET-->
+
+    <link rel="stylesheet" href="css/critical.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scotia_minapp.css">
+
+    <title>Skaters</title>
+</head>
+
+<body class="page skaters">
+<div class="app">
+
+
+    <main role="main" class="en">
+
+
+        <section class="mainbanner mainbanner-boys">
+            <div class="container">
+                <h2 class="alt3">The Scotiabank <br class="mobile">Skaters Program</h2>
+                <p class="white">Give your <span class="no-wrap">up-and-coming</span> <span
+                        class="no-wrap">all-stars</span> the thrill of a lifetime. Enter the
+                    Scotiabank<sup>©*</sup> Skaters Contest for a chance to skate with their
+                    NHL<sup>®</sup> or AHL<sup>®</sup> hockey heroes.</p>
+
+                <div class="logos">
+                    <div class="item"><img src="img/team1.png" alt="Calgary Flames"></div>
+                    <div class="item"><img src="img/team2.png" alt="Edmonton Oilers"></div>
+                    <div class="item"><img src="img/team8.png" alt="Winnipeg Jets"></div>
+                    <div class="item"><img src="img/team9.png" alt="Manitoba Moose"></div>
+                    <div class="item"><img src="img/team6.png" alt="Toronto Maple Leafs"></div>
+                    <div class="item"><img src="img/team4.png" alt="Toronto Marlies"></div>
+                    <div class="item"><img src="img/team5.png" alt="Montreal Canadiens"></div>
+                    <div class="item"><img src="img/team11.png" alt="London Knights"></div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="form" id="form-boys">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="top">
+                        <h2 class="main">Fill in the form below</h2>
+                        <p class="main">Enter now for your chance at the hockey opportunity of a
+                            lifetime. Plus! You
+                            could you also win:<br>
+                            • 4 regular season game tickets<br>
+                            • A team jersey<br>
+                            • Other amazing Scotia Hockey Club merchandise<br>
+                            • Personalized digital player card with a photo from the experience</p>
+                    </div>
+                    <form action="#" autocomplete="off">
+                        <input type="hidden" id="lang" name="lang" value="">
+                        <input type="hidden" id="source" name="source" value="">
+
+                        <div class="form-teams form-wrapper required">
+                            <label class="big required">Select Team*</label>
+                            <div class="form-errors"></div>
+                            <div class="form-teams-wrapper owl-carousel">
+                                <div class="item form-team" data-value="Calgary Flames">
+                                    <div class="form-logo">
+                                        <img src="img/team1.png?1" alt="Calgary Flames">
+                                    </div>
+                                    <div class="form-option">
+                                        <div></div>
+                                    </div>
+                                    <div class="form-tooltip">
+                                        <div>Calgary Flames</div>
+                                    </div>
+                                </div>
+                                <div class="item form-team" data-value="Edmonton Oilers">
+                                    <div class="form-logo">
+                                        <img src="img/team2.png?1" alt="Edmonton Oilers">
+                                    </div>
+                                    <div class="form-option">
+                                        <div></div>
+                                    </div>
+                                    <div class="form-tooltip">
+                                        <div>Edmonton Oilers</div>
+                                    </div>
+                                </div>
+                                <div class="item form-team" data-value="Winnipeg Jets">
+                                    <div class="form-logo">
+                                        <img src="img/team8.png?1" alt="Winnipeg Jets">
+                                    </div>
+                                    <div class="form-option">
+                                        <div></div>
+                                    </div>
+                                    <div class="form-tooltip">
+                                        <div>Winnipeg Jets</div>
+                                    </div>
+                                </div>
+                                <div class="item form-team" data-value="Manitoba Moose">
+                                    <div class="form-logo">
+                                        <img src="img/team9.png?1" alt="Manitoba Moose">
+                                    </div>
+                                    <div class="form-option">
+                                        <div></div>
+                                    </div>
+                                    <div class="form-tooltip">
+                                        <div>Manitoba Moose</div>
+                                    </div>
+                                </div>
+                                <div class="item form-team" data-value="Toronto Maple Leafs">
+                                    <div class="form-logo">
+                                        <img src="img/team6.png?1" alt="Toronto Maple Leafs">
+                                    </div>
+                                    <div class="form-option">
+                                        <div></div>
+                                    </div>
+                                    <div class="form-tooltip">
+                                        <div>Toronto Maple Leafs</div>
+                                    </div>
+                                </div>
+                                <div class="item form-team" data-value="Toronto Marlies">
+                                    <div class="form-logo">
+                                        <img src="img/team4.png?1" alt="Toronto Marlies">
+                                    </div>
+                                    <div class="form-option">
+                                        <div></div>
+                                    </div>
+                                    <div class="form-tooltip">
+                                        <div>Toronto Marlies</div>
+                                    </div>
+                                </div>
+                                <div class="item form-team" data-value="Montreal Canadiens">
+                                    <div class="form-logo">
+                                        <img src="img/team5.png?1" alt="Montreal Canadiens">
+                                    </div>
+                                    <div class="form-option">
+                                        <div></div>
+                                    </div>
+                                    <div class="form-tooltip">
+                                        <div>Montreal Canadiens</div>
+                                    </div>
+                                </div>
+                                <div class="item form-team" data-value="London Knights">
+                                    <div class="form-logo">
+                                        <img src="img/team11.png?1" alt="Toronto Marlies">
+                                    </div>
+                                    <div class="form-option">
+                                        <div></div>
+                                    </div>
+                                    <div class="form-tooltip">
+                                        <div>London Knights</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="form-legend">
+                            <label>*Required field</label>
+                        </div>
+                        <div class="form-fields">
+                            <div class="grid">
+                                <div class="form-wrapper">
+                                    <label for="parentsFirstName" class="required">Parent / Legal
+                                        Guardian’s First
+                                        Name*</label>
+                                    <input type="text" class="form-control required"
+                                           id="parentsFirstName"
+                                           name="parentsFirstName">
+                                    <div class="form-errors"></div>
+                                </div>
+                                <div class="form-wrapper">
+                                    <label for="parentsLastName" class="required">Parent / Legal
+                                        Guardian’s Last
+                                        Name*</label>
+                                    <input type="text" class="form-control required"
+                                           id="parentsLastName"
+                                           name="parentsLastName">
+                                    <div class="form-errors"></div>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="form-wrapper">
+                                    <label for="emailAddress" class="required">Email
+                                        Address*</label>
+                                    <input type="email" class="form-control required email"
+                                           id="emailAddress"
+                                           name="emailAddress">
+                                    <div class="form-errors"></div>
+                                </div>
+                                <div class="form-wrapper">
+                                    <label for="phoneNumber" class="required">Phone Number*</label>
+                                    <div class="grid2">
+                                        <div>
+                                            <input type="text"
+                                                   class="form-control required phonecode"
+                                                   id="phoneCode"
+                                                   name="phoneCode" maxlength="3">
+                                        </div>
+                                        <div>
+                                            <input type="text"
+                                                   class="form-control required phonenumber"
+                                                   id="phoneNumber" name="phoneNumber"
+                                                   maxlength="8">
+                                        </div>
+                                    </div>
+                                    <div class="form-errors"></div>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="form-wrapper">
+                                    <label for="address" class="required">Address*</label>
+                                    <input type="text" class="form-control required" id="address"
+                                           name="address">
+                                    <div class="form-errors"></div>
+                                </div>
+                                <div class="form-wrapper">
+                                    <label for="city" class="required">City*</label>
+                                    <input type="text" class="form-control required" id="city"
+                                           name="city">
+                                    <div class="form-errors"></div>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="form-wrapper">
+                                    <label for="postalcode" class="required">Postal Code*</label>
+                                    <input type="text" class="form-control required postalcode"
+                                           id="postalcode"
+                                           name="postalcode" maxlength="7">
+                                    <div class="form-errors"></div>
+                                </div>
+                                <div class="form-wrapper">
+                                    <label for="province" class="required">Province*</label>
+                                    <select class="form-control required" id="province"
+                                            name="province">
+                                        <option value="">Select one...</option>
+                                        <option value="Alberta">Alberta</option>
+                                        <option value="British Columbia">British Columbia</option>
+                                        <option value="Manitoba">Manitoba</option>
+                                        <option value="New Brunswick">New Brunswick</option>
+                                        <option value="Newfoundland and Labrador">Newfoundland and
+                                            Labrador
+                                        </option>
+                                        <option value="Nova Scotia">Nova Scotia</option>
+                                        <option value="Ontario">Ontario</option>
+                                        <option value="Prince Edward Island">Prince Edward Island
+                                        </option>
+                                        <option value="Quebec">Quebec</option>
+                                        <option value="Saskatchewan">Saskatchewan</option>
+                                        <option value="Northwest Territories">Northwest
+                                            Territories
+                                        </option>
+                                        <option value="Nunavut">Nunavut</option>
+                                        <option value="Yukon">Yukon</option>
+                                    </select>
+                                    <div class="form-errors"></div>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="form-wrapper">
+                                    <label for="childsName" class="required">Child’s Name*</label>
+                                    <input type="text" class="form-control required" id="childsName"
+                                           name="childsName">
+                                    <div class="form-errors"></div>
+                                </div>
+                                <div class="form-wrapper">
+                                    <label for="childsAge" class="required">Child’s Age*</label>
+                                    <select class="form-control required" id="childsAge"
+                                            name="childsAge">
+                                        <option value="">Select one...</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                    </select>
+                                    <div class="form-errors"></div>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="form-wrapper">
+                                    <label for="skatingAbility" class="required height">Skating
+                                        Ability*</label>
+                                    <select class="form-control required" id="skatingAbility"
+                                            name="skatingAbility">
+                                        <option value="">Select one...</option>
+                                        <option value="1">Beginner (New to skating or hockey)
+                                        </option>
+                                        <option value="2">Recreational (New to hockey – 2 years of
+                                            playing hockey)
+                                        </option>
+                                        <option value="3">Intermediate (2 – 5 years of playing
+                                            hockey)
+                                        </option>
+                                        <option value="4">Advanced (5+ years of skating or playing
+                                            hockey)
+                                        </option>
+                                    </select>
+                                    <div class="form-errors"></div>
+                                </div>
+                                <div class="form-wrapper">
+                                    <label for="whatHockeyAssociation" class="required">Does your
+                                        child play hockey in a
+                                        local hockey association?<br>If so, which one?*</label>
+                                    <input type="text" class="form-control required"
+                                           id="whatHockeyAssociation"
+                                           name="whatHockeyAssociation">
+                                    <div class="form-errors"></div>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="form-wrapper">
+                                    <label for="isScotiaHockeyClubMember" class="required">Scotia
+                                        Hockey Club
+                                        Member*</label>
+                                    <div class="grid3 form-radio isScotiaHockeyClubMember required">
+                                        <div class="form-option form-radio-option" data-value="yes">
+                                            <div></div>
+                                            <label>Yes</label>
+                                        </div>
+                                        <div class="form-option form-radio-option" data-value="no">
+                                            <div></div>
+                                            <label>No</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-errors"></div>
+                                </div>
+                                <div class="form-wrapper">
+                                    <label for="isMajorityInProvince" class="required">I am over the
+                                        age of majority in
+                                        my province*</label>
+                                    <div class="grid3 form-radio isMajorityInProvince required">
+                                        <div class="form-option form-radio-option" data-value="yes">
+                                            <div></div>
+                                            <label>Yes</label>
+                                        </div>
+                                        <div class="form-option form-radio-option" data-value="no">
+                                            <div></div>
+                                            <label>No</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-errors"></div>
+                                </div>
+                            </div>
+                            <div class="form-wrapper">
+                                <label for="acceptTerms" class="small">I am the parent or legal
+                                    guardian of the
+                                    applicant. I have read the <a href="https://scotiabankhockeyclub.com/skaters-rules"
+                                                                  target="_blank">rules and
+                                        regulations</a> and hereby consent to the minor submitting
+                                    an application for
+                                    this contest.*</label>
+                                <div class="grid3 form-checkbox required acceptTerms">
+                                    <div class="form-option form-checkbox-option" data-value="yes">
+                                        <div></div>
+                                        <label>Yes</label>
+                                    </div>
+                                </div>
+                                <div class="form-errors alt"></div>
+                            </div>
+                            <div class="form-wrapper">
+                                <label for="acceptReceiveMessages" class="small">Yes, I allow
+                                    Scotiabank to send me
+                                    electronic messages (such as emails) about products and
+                                    services, offers, events,
+                                    and other valuable information of Scotiabank, its affiliates and
+                                    select third
+                                    parties. I understand I can withdraw my consent to receive such
+                                    messages at any
+                                    time. If I do, I understand I may still receive certain
+                                    electronic messages from
+                                    Scotiabank as permitted by law, such as transactional messages
+                                    relating to my
+                                    existing accounts and services.</label>
+                                <div class="grid3 form-checkbox required acceptReceiveMessages">
+                                    <div class="form-option form-checkbox-option" data-value="yes">
+                                        <div></div>
+                                        <label>Yes</label>
+                                    </div>
+                                </div>
+                                <div class="form-errors alt"></div>
+                            </div>
+                            <div class="form-wrapper">
+                                <p class="small">By entering the “Scotiabank Skaters” 2018-19 (the
+                                    “Contest”), entrants
+                                    agree to abide by these <a href="https://scotiabankhockeyclub.com/skaters-rules"
+                                                               class="link underline legal"
+                                                               target="_blank">Official Contest
+                                        Rules and
+                                        Regulations</a> and the decisions of the sponsor, Then Bank
+                                    of Nova Scotia (the
+                                    “Contest Sponsor”) which are final and binding in all respects
+                                    relating to the
+                                    Contest.
+                            </div>
+                            <div>
+                                <button id="link-form-boys-submit" class="button big">Submit
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="form" id="form-boys-success">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="top">
+                        <h2 class="main">Thanks for entering!</h2>
+                        <p class="main">A confirmation email will be sent shortly.<br>
+                            You’re one step closer to seeing your pint-sized player skate with their
+                            heroes.<br>
+                            Thanks to dedicated fans like you, we’re helping kids across Canada make
+                            hockey memories to
+                            last a lifetime.</p>
+                        <div class="buttons">
+                            <a href="#" class="button big" id="link-form-boys-close">Close</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form" id="form-boys-error">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="top">
+                        <h2 class="main">Error!</h2>
+                        <p class="main">There is some errors with your data</p>
+                        <div class="buttons">
+                            <a href="#" class="button big" id="link-form-boys-reopen">Try Again</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <div class="scotia-styles">
+        <div id="footer" class="clearfix">
+
+
+            <div class="row" id="topFooter">
+                <div class="col">
+
+
+                    <div class="queue">
+                        <section class="topFooterMobile">
+
+                            <div class="queuetop">
+                                <h2 class="main">Skaters entries pending to sync & submit</h2>
+
+                            </div>
+
+
+
+
+
+
+
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/app.min.js"></script>
+
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+    app.initialize();
+
+</script>
+</body>
+
+</html>
