@@ -483,35 +483,9 @@ var app = {
                 acceptReceiveMessages:acceptReceiveMessages
             };
 
-            var $extra = 0;
-            while($extra < 250){
 
-                    var skaterToSubmit = {
-                            source:source+$extra,
-                            lang:lang,
-                            teamSelected:teamSelected,
-                            parentsFirstName:parentsFirstName+$extra,
-                            parentsLastName:parentsLastName+$extra,
-                            emailAddress:emailAddress+$extra,
-                            phoneCode:phoneCode,
-                            phoneNumber:phoneNumber,
-                            address:address,
-                            city:city,
-                            postalcode:postalcode,
-                            province:province,
-                            childsName:childsName+$extra,
-                            childsAge:childsAge,
-                            skatingAbility:skatingAbility,
-                            whatHockeyAssociation:whatHockeyAssociation,
-                            isScotiaHockeyClubMember:isScotiaHockeyClubMember,
-                            isMajorityInProvince:isMajorityInProvince,
-                            acceptTerms:acceptTerms,
-                            acceptReceiveMessages:acceptReceiveMessages
-                        };
+            window.localStorage.setItem("key_"+Date.now(), JSON.stringify(skaterToSubmit));
 
-                    window.localStorage.setItem("key_"+$extra, JSON.stringify(skaterToSubmit));
-                $extra++;
-            }
             $("#form-boys form").trigger("reset");
 
             $formBoys.hide();
