@@ -72,6 +72,10 @@
         "source": "D:\\dev\\repos\\scotiabank\\scotiabank-skaters-mobile-app\\ScotiabankSkaters\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
     },
     {
+        "merged": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_screen.png.flat",
+        "source": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\screen.png"
+    },
+    {
         "merged": "D:\\dev\\repos\\scotiabank\\scotiabank-skaters-mobile-app\\ScotiabankSkaters\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
         "source": "D:\\dev\\repos\\scotiabank\\scotiabank-skaters-mobile-app\\ScotiabankSkaters\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
     },
