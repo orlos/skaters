@@ -740,7 +740,7 @@ function __processQueueSubmissions() {
 
 
 
-                         var posvars = '&teamSelected='+$cIObj.teamSelected+'&bypass='+$key+'&parentsFirstName='+$cIObj.parentsFirstName+'&parentsLastName='+$cIObj.parentsLastName+
+                         var posvars = '&teamSelected='+$cIObj.teamSelected+'&source='+$cIObj.source+'&bypass='+$key+'&parentsFirstName='+$cIObj.parentsFirstName+'&parentsLastName='+$cIObj.parentsLastName+
                          '&emailAddress='+$cIObj.emailAddress+'&phoneCode='+$cIObj.phoneCode+'&phoneNumber='+$cIObj.phoneNumber+'&address='+$cIObj.address+'&city='+$cIObj.city+
                          '&postalcode='+$cIObj.postalcode+'&province='+$cIObj.province+'&childsName='+$cIObj.childsName+'&childsAge='+$cIObj.childsAge+'&skatingAbility='+$cIObj.skatingAbility+
                          '&whatHockeyAssociation='+$cIObj.whatHockeyAssociation+'&isScotiaHockeyClubMember='+$cIObj.isScotiaHockeyClubMember+'&isMajorityInProvince='+$cIObj.isMajorityInProvince+
