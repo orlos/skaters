@@ -30,6 +30,12 @@
     },
     "cordova-plugin-dialogs": {
       "PACKAGE_NAME": "com.scotiabankhockeyclub.skaters"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.scotiabankhockeyclub.skaters"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.scotiabankhockeyclub.skaters"
     }
   },
   "dependent_plugins": {

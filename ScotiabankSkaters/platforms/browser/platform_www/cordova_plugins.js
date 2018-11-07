@@ -447,7 +447,8 @@ module.exports.metadata =
     "cordova-plugin-file": "6.0.1",
     "cordova-plugin-file-transfer": "1.5.1",
     "cordova-sqlite-storage": "2.5.0",
-    "cordova-plugin-network-information": "1.2.1"
+    "cordova-plugin-network-information": "1.2.1",
+    "cordova-plugin-whitelist": "1.2.2"
 }
 // BOTTOM OF METADATA
 });

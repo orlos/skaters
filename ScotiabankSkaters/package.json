@@ -27,7 +27,8 @@
 		"cordova": {
 				"plugins": {
 						"cordova-plugin-network-information": {},
-						"cordova-sqlite-storage": {}
+						"cordova-sqlite-storage": {},
+						"cordova-plugin-whitelist": {}
 				}
 		}
 }

@@ -36,6 +36,9 @@
     },
     "cordova-plugin-network-information": {
       "PACKAGE_NAME": "com.scotiabankhockeyclub.skaters"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.scotiabankhockeyclub.skaters"
     }
   },
   "dependent_plugins": {
