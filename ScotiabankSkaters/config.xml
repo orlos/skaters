@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.scotiabankhockeyclub.skatersform" version="1.0.7" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.scotiabankhockeyclub.skatersform" version="1.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>ScotiabankSkaters</name>
     <description>
         Scotiabank App for Skaters registration.
@@ -63,7 +63,7 @@
         <icon height="144" platform="ios" src="www/res/icons/ios/icon-72@2x.png" width="144" />
         <icon height="76" platform="ios" src="www/res/icons/ios/icon-76.png" width="76" />
         <icon height="152" platform="ios" src="www/res/icons/ios/icon-76@2x.png" width="152" />
-        <icon height="29" platform="ios" src="www/res/icons/ios3/Icon-App-29x29@1x" width="29" />
+        <icon height="29" platform="ios" src="www/res/icons/ios3/Icon-App-29x29@1x.png" width="29" />
         <icon height="58" platform="ios" src="www/res/icons/ios/icon-small@2x.png" width="58" />
         <icon height="87" platform="ios" src="www/res/icons/ios/icon-small@3x.png" width="87" />
         <splash height="1136" platform="ios" src="www/res/screens/ios/Default-568h@2x~iphone.png" width="640" />
