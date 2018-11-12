@@ -3,6 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="83e479e6-6c0f-42c2-8c3d-39b93f945fff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/android.json" afterPath="$PROJECT_DIR$/platforms/android/android.json" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icons/ios - Copy/icon-40.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icons/ios - Copy/icon-40@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icons/ios - Copy/icon-50.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icons/ios - Copy/icon-50@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icons/ios - Copy/icon-60.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icons/ios - Copy/icon-60@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icons/ios - Copy/icon-60@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icons/ios - Copy/icon-72.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icons/ios - Copy/icon-72@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icons/ios - Copy/icon-76.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/res/icons/ios - Copy/icon-76@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/com/scotiabankhockeyclub/skaters/MainActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/config.xml" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/platforms/browser/www/index.html" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/manifest.json" afterPath="$PROJECT_DIR$/platforms/browser/www/manifest.json" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/ScotiabankSkaters/Images.xcassets/AppIcon.appiconset/icon-small.png" afterPath="$PROJECT_DIR$/platforms/ios/ScotiabankSkaters/Images.xcassets/AppIcon.appiconset/icon-small.png" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/ScotiabankSkaters/ScotiabankSkaters-Info.plist" afterPath="$PROJECT_DIR$/platforms/ios/ScotiabankSkaters/ScotiabankSkaters-Info.plist" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/ScotiabankSkaters/config.xml" afterPath="$PROJECT_DIR$/platforms/ios/ScotiabankSkaters/config.xml" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
