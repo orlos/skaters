@@ -351,10 +351,12 @@ function tryParseJSON (jsonString){
 function updatePendingSubmissions() {
 
     $queue = $(".queue section");
-    $queueItems = $(".queue section .queueItem").remove();
+    //$queueItems = $(".queue section .queueItem").remove();
 
     $(".queue .queuetop").hide();
     var $i = 0;
+    $(".queue .queuetop var.__amountPending").html( window.localStorage.length );
+
     while( $i < window.localStorage.length) {
 
 
@@ -363,19 +365,25 @@ function updatePendingSubmissions() {
 
         if($currItemObj !== false && $currItemObj.hasOwnProperty("emailAddress")) {
 
-            var HTML = '<div class="queueItem"><div class="lds-ripple"><div></div><div></div></div><aside><h3>'+
+           /* var HTML = '<div class="queueItem"><div class="lds-ripple"><div></div><div></div></div><aside><h3>'+
             $currItemObj.parentsFirstName+ ' ' + $currItemObj.parentsLastName + '</h3>'+
             '<p>Child: '+ $currItemObj.childsName + '</p>'+
             '<p>Team: '+ $currItemObj.teamSelected +'</p></aside></div>';
 
-            $queue.append(HTML);
+            $queue.append(HTML);*/
             $(".queue .queuetop").fadeIn();
 
             $i++;
         } else {
+
             window.localStorage.removeItem(window.localStorage.key($i));
+            $(".queue .queuetop var.__amountPending").html( window.localStorage.length );
         }
 
+    }
+
+    if(window.localStorage.length === 0) {
+     $(".queue .queuetop").hide();
     }
 
 }
@@ -725,7 +733,7 @@ function __processQueueSubmissions() {
                  $isSubmittingQueue = true;
 
                  $queue = $(".queue section");
-                 $queueItems = $(".queue section .queueItem").remove();
+                 //$queueItems = $(".queue section .queueItem").remove();
 
                  var $i = 0;
                  while( $i < window.localStorage.length) {

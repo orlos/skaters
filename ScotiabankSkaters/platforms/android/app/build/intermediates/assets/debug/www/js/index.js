@@ -363,11 +363,11 @@ function updatePendingSubmissions() {
 
         if($currItemObj !== false && $currItemObj.hasOwnProperty("emailAddress")) {
 
-            var HTML = '<div class="queueItem"><div class="lds-ripple"><div></div><div></div></div><aside><h3>'+
+           /* var HTML = '<div class="queueItem"><div class="lds-ripple"><div></div><div></div></div><aside><h3>'+
             $currItemObj.parentsFirstName+ ' ' + $currItemObj.parentsLastName + '</h3>'+
             '<p>Child: '+ $currItemObj.childsName + '</p>'+
             '<p>Team: '+ $currItemObj.teamSelected +'</p></aside></div>';
-
+*/
             $queue.append(HTML);
             $(".queue .queuetop").fadeIn();
 
