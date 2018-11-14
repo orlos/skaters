@@ -9,17 +9,17 @@ INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms
 INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:102-144
+		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:103-149
 		INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:74-101
+		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:74-102
 		INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml
 	android:hardwareAccelerated
 		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:145-203
+		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:150-208
 	android:versionCode
 		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
 		INJECTED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml
@@ -52,7 +52,7 @@ ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\an
 		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
 	android:icon
 		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
-activity#com.scotiabankhockeyclub.skaters.MainActivity
+activity#com.scotiabankhockeyclub.skatersform.MainActivity
 ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
 	android:label
 		ADDED from D:\dev\repos\scotiabank\github\skaters\ScotiabankSkaters\platforms\android\app\src\main\AndroidManifest.xml:6:97-134

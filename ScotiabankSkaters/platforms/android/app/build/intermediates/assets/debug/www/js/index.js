@@ -133,8 +133,8 @@ function initVideosBoys() {
 
 function initBoys() {
 
-    $("#phoneCode").mask("000");
-    $("#phoneNumber").mask("000-0000");
+  //  $("#phoneCode").mask("000");
+  //  $("#phoneNumber").mask("000-0000");
     $("#postalcode").mask("Z0Z 0Z0", {'translation': {
         Z: {pattern: /[A-Za-z]/}
     }});
@@ -351,10 +351,12 @@ function tryParseJSON (jsonString){
 function updatePendingSubmissions() {
 
     $queue = $(".queue section");
-    $queueItems = $(".queue section .queueItem").remove();
+    //$queueItems = $(".queue section .queueItem").remove();
 
     $(".queue .queuetop").hide();
     var $i = 0;
+    $(".queue .queuetop var.__amountPending").html( window.localStorage.length );
+
     while( $i < window.localStorage.length) {
 
 
@@ -367,16 +369,24 @@ function updatePendingSubmissions() {
             $currItemObj.parentsFirstName+ ' ' + $currItemObj.parentsLastName + '</h3>'+
             '<p>Child: '+ $currItemObj.childsName + '</p>'+
             '<p>Team: '+ $currItemObj.teamSelected +'</p></aside></div>';
-*/
-            $queue.append(HTML);
+
+            $queue.append(HTML);*/
             $(".queue .queuetop").fadeIn();
 
             $i++;
         } else {
+
             window.localStorage.removeItem(window.localStorage.key($i));
+            $(".queue .queuetop var.__amountPending").html( window.localStorage.length );
+
+            if(window.localStorage.length === 0) {
+             $(".queue .queuetop").hide();
+            }
+
         }
 
     }
+
 
 }
 
@@ -671,6 +681,8 @@ function validateForm(showErrors) {
         }
     });
 
+    console.log(band);
+
     return band;
 }
 
@@ -710,7 +722,7 @@ function isPhoneCode(phoneCode) {
 }
 
 function isPhoneNumber(phoneNumber) {
-    var regex = /^\d{3}[-]\d{4}$/;
+    var regex = /^\d{7}$/;
     return regex.test(phoneNumber);
 }
 
@@ -725,7 +737,7 @@ function __processQueueSubmissions() {
                  $isSubmittingQueue = true;
 
                  $queue = $(".queue section");
-                 $queueItems = $(".queue section .queueItem").remove();
+                 //$queueItems = $(".queue section .queueItem").remove();
 
                  var $i = 0;
                  while( $i < window.localStorage.length) {
@@ -740,7 +752,7 @@ function __processQueueSubmissions() {
 
 
 
-                         var posvars = '&teamSelected='+$cIObj.teamSelected+'&bypass='+$key+'&parentsFirstName='+$cIObj.parentsFirstName+'&parentsLastName='+$cIObj.parentsLastName+
+                         var posvars = '&teamSelected='+$cIObj.teamSelected+'&source='+$cIObj.source+'&bypass='+$key+'&parentsFirstName='+$cIObj.parentsFirstName+'&parentsLastName='+$cIObj.parentsLastName+
                          '&emailAddress='+$cIObj.emailAddress+'&phoneCode='+$cIObj.phoneCode+'&phoneNumber='+$cIObj.phoneNumber+'&address='+$cIObj.address+'&city='+$cIObj.city+
                          '&postalcode='+$cIObj.postalcode+'&province='+$cIObj.province+'&childsName='+$cIObj.childsName+'&childsAge='+$cIObj.childsAge+'&skatingAbility='+$cIObj.skatingAbility+
                          '&whatHockeyAssociation='+$cIObj.whatHockeyAssociation+'&isScotiaHockeyClubMember='+$cIObj.isScotiaHockeyClubMember+'&isMajorityInProvince='+$cIObj.isMajorityInProvince+

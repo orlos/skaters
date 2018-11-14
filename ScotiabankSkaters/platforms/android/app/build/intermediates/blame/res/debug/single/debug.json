@@ -4,16 +4,16 @@
         "source": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
     },
     {
-        "merged": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
-        "source": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+        "merged": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
     },
     {
         "merged": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
         "source": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
     },
     {
-        "merged": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
-        "source": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
+        "merged": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
+        "source": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
     },
     {
         "merged": "D:\\dev\\repos\\scotiabank\\scotiabank-skaters-mobile-app\\ScotiabankSkaters\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
@@ -70,10 +70,6 @@
     {
         "merged": "D:\\dev\\repos\\scotiabank\\scotiabank-skaters-mobile-app\\ScotiabankSkaters\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
         "source": "D:\\dev\\repos\\scotiabank\\scotiabank-skaters-mobile-app\\ScotiabankSkaters\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
-    },
-    {
-        "merged": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_screen.png.flat",
-        "source": "D:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\screen.png"
     },
     {
         "merged": "D:\\dev\\repos\\scotiabank\\scotiabank-skaters-mobile-app\\ScotiabankSkaters\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",

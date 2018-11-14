@@ -133,8 +133,8 @@ function initVideosBoys() {
 
 function initBoys() {
 
-    $("#phoneCode").mask("000");
-    $("#phoneNumber").mask("000-0000");
+  //  $("#phoneCode").mask("000");
+  //  $("#phoneNumber").mask("000-0000");
     $("#postalcode").mask("Z0Z 0Z0", {'translation': {
         Z: {pattern: /[A-Za-z]/}
     }});
@@ -378,13 +378,15 @@ function updatePendingSubmissions() {
 
             window.localStorage.removeItem(window.localStorage.key($i));
             $(".queue .queuetop var.__amountPending").html( window.localStorage.length );
+
+            if(window.localStorage.length === 0) {
+             $(".queue .queuetop").hide();
+            }
+
         }
 
     }
 
-    if(window.localStorage.length === 0) {
-     $(".queue .queuetop").hide();
-    }
 
 }
 
@@ -679,6 +681,8 @@ function validateForm(showErrors) {
         }
     });
 
+    console.log(band);
+
     return band;
 }
 
@@ -718,7 +722,7 @@ function isPhoneCode(phoneCode) {
 }
 
 function isPhoneNumber(phoneNumber) {
-    var regex = /^\d{3}[-]\d{4}$/;
+    var regex = /^\d{7}$/;
     return regex.test(phoneNumber);
 }
 

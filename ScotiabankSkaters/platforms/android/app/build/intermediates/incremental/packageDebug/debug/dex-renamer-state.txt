@@ -1,4 +1,4 @@
-#Wed Nov 07 10:29:42 VET 2018
+#Wed Nov 14 18:24:05 VET 2018
 base.0=D\:\\dev\\repos\\scotiabank\\github\\skaters\\ScotiabankSkaters\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

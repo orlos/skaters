@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.scotiabankhockeyclub.skaters;
+package com.scotiabankhockeyclub.skatersform;
 
 public final class R {
   public static final class drawable {
