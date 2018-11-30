@@ -9,6 +9,7 @@ var $linkFormPostSubmit = $("#link-form-post-submit");
 
 var $formBoys = $("#form-boys");
 var $formPost = $("#form-skaters-post");
+
 var $formBoysSuccess = $("#form-boys-success");
 var $formBoysError = $("#form-boys-error");
 
@@ -19,7 +20,7 @@ var $formCheckboxOption = $(".form-checkbox-option");
 var $logosForm = $("#form-boys").find(".owl-carousel");
 var $videosBoys = $("#videos-boys").find(".owl-carousel");
 
-var $baseUrl = "https://scotia-hockey-hub.majesticdev.ca";
+var $baseUrl = "https://scotiabankhockeyclub.com";
 
 window.__ConnectionStatus = "unknown";
 window.__IsConnectedToInternet = false;
